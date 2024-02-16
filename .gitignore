@@ -4,5 +4,3 @@
 .env
 reports
 allure-results
-docker-compose.yml
-.github

@@ -20,12 +20,12 @@ class BasePage:                                                     # в нём 
     def scrol_down(self):                                                   # скролл вниз
         with allure.step(f"Scrol {self.PAGE_URL} page"):                    # для записи в алюр более понятной
             self.driver.execute_script("window.scrollBy(0,500)","")
-            time.sleep(1)
+            # time.sleep(1)
 
     def scrol_up(self):                                                     # скролл вверх
         with allure.step(f"Scrol {self.PAGE_URL} page"):                    # для записи в алюр более понятной
             self.driver.execute_script("window.scrollBy(0,-5000)","")
-            time.sleep(1)
+            # time.sleep(1)
 
     def make_screenshot(self, screenshot_name):         # для скриншота
         allure.attach(                                  # как сохранять его

@@ -35,54 +35,54 @@ class AdminPage(BasePage):
     @allure.step("Click on submit button")
     def click_submit_button(self):
         self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on car button")
     def car_button(self):
         self.wait.until(EC.element_to_be_clickable(self.CAR_BUTTON)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on checkbox on")
     def checkbox_click_on(self):
         self.wait.until(EC.element_to_be_clickable(self.CHECKBOX_CLICK_ON)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on checkbox off")
     def checkbox_click_off(self):
         self.wait.until(EC.element_to_be_clickable(self.CHECKBOX_CLICK_OFF)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on checkbox on one car")
     def checkbox_click_settings_on_1(self):
         self.wait.until(EC.element_to_be_clickable(self.CHECKBOX_CLICK_SETTINGS_ON_1)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on checkbox on two car")
     def checkbox_click_settings_on_2(self):
         self.wait.until(EC.element_to_be_clickable(self.CHECKBOX_CLICK_SETTINGS_ON_2)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select settings")
     def click_settings_select(self):
         self.wait.until(EC.element_to_be_clickable(self.CLICK_SETTINGS_SELECT)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on settings")
     def click_settings(self):
         self.wait.until(EC.element_to_be_clickable(self.CLICK_SETTINGS)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on settings button")
     def click_settings_button(self):
         self.wait.until(EC.element_to_be_clickable(self.CLICK_SETTINGS_BUTTON)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on settings button agreement")
     def click_settings_button_agreement(self):
         self.wait.until(EC.element_to_be_clickable(self.CLICK_SETTINGS_BUTTON_AGREEMENT)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on save button")
     def save_button(self):
         self.wait.until(EC.element_to_be_clickable(self.SAVE)).click()
-        time.sleep(1)
+        # time.sleep(1)

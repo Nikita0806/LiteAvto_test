@@ -20,4 +20,4 @@ class DashboardOfferPage(BasePage):
     @allure.step("Click on add car")
     def click_offer(self):
         self.wait.until(EC.element_to_be_clickable(self.ADD_CAR_BUTTON)).click()
-        time.sleep(1)
+        # time.sleep(1)

@@ -17,5 +17,3 @@
 #         self.login_page.enter_login(self.data.LOGIN)        # ввод логина
 #         self.login_page.enter_password(self.data.PASSWORD)  # ввод пароля
 #         self.login_page.click_submit_button()               # нажатие на кнопку
-# #
-# #         # self.personal_page.make_scre

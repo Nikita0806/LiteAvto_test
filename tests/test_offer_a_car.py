@@ -1,4 +1,3 @@
-# import random
 # import allure
 # import pytest
 # from base.base_test import BaseTest
@@ -63,4 +62,4 @@
 #         self.offer_page.photo_3()
 #         self.offer_page.enter_description('Отличная тачка')
 #         self.offer_page.save_button()
-#
+

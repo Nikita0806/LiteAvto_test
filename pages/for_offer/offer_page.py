@@ -46,133 +46,133 @@ class OfferPage(BasePage):
     def scrol_save_button(self):
         ave_button = self.driver.find_element(By.XPATH, '/html/body/form/div/button')
         self.driver.execute_script("arguments[0].scrollIntoView();", ave_button)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор марки
 
     @allure.step("Click on search marka")
     def click_search_marka(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_MARKA)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select marka")
     def click_select_marka(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_MARKA)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор модели
 
     @allure.step("Click on search model")
     def click_search_model(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_MODEL)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select model")
     def click_select_model(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_MODEL)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор кузова
 
     @allure.step("Click on search cuzov")
     def click_search_cuzov(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_CUZOV)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select cuzov")
     def click_select_cuzov(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_CUZOV)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Ввод цвета
 
     @allure.step("Enter on color")
     def enter_color(self, color):
         self.wait.until(EC.element_to_be_clickable(self.COLOR)).send_keys(color)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Ввод VIN
 
     @allure.step("Enter on vin")
     def enter_vin(self, vin):
         self.wait.until(EC.element_to_be_clickable(self.VIN)).send_keys(vin)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Комплектация
 
     @allure.step("Enter on equipment")
     def enter_equipment(self, equipment):
         self.wait.until(EC.element_to_be_clickable(self.EQUIPMENT)).send_keys(equipment)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор даты
 
     @allure.step("Click on search date")
     def click_search_date(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_DATE)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select date")
     def click_select_date(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_DATE)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Ввод цены
 
     @allure.step("Enter on price")
     def enter_price(self, price):
         self.wait.until(EC.element_to_be_clickable(self.PRICE)).send_keys(price)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Пробег
 
     @allure.step("Enter on mileage")
     def enter_mileage(self, mileage):
         self.wait.until(EC.element_to_be_clickable(self.MILEAGE)).send_keys(mileage)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор трансмиссии
 
     @allure.step("Click on search transmission")
     def click_search_transmission(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_TRANSMISSION)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select transmission")
     def click_select_transmission(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_TRANSMISSION)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор объём двигателя
 
     @allure.step("Click on search engine capacity")
     def click_search_engine_capacity(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_ENGINE_CAPACITY)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select engine capacity")
     def click_select_engine_capacity(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_ENGINE_CAPACITY)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор тип двигателя
 
     @allure.step("Click on search engine type")
     def click_search_engine_type(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_ENGINE_TYPE)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select engine type")
     def click_select_engine_type(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_ENGINE_TYPE)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор привода
 
     @allure.step("Click on search drive unit")
     def click_search_drive_unit(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_DRIVE_UNIT)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select drive unit")
     def click_select_drive_unit(self):
@@ -184,57 +184,57 @@ class OfferPage(BasePage):
     @allure.step("Click on search state")
     def click_search_state(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_STATE)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select state")
     def click_select_state(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_STATE)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Лошадиные силы
 
     @allure.step("Enter on horsepower")
     def enter_horsepower(self, horsepower):
         self.wait.until(EC.element_to_be_clickable(self.HORSEPOWER)).send_keys(horsepower)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор ПТС
 
     @allure.step("Click on search pts")
     def click_search_pts(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_PTS)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select pts")
     def click_select_pts(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_PTS)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Владельцы
 
     @allure.step("Enter on owners")
     def enter_owners(self, owners):
         self.wait.until(EC.element_to_be_clickable(self.OWNERS)).send_keys(owners)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Выбор учета
 
     @allure.step("Click on search accounting")
     def click_search_accounting(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_ACCOUNTING)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select accounting")
     def click_select_accounting(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_ACCOUNTING)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
         # Телефон
 
     @allure.step("Enter on telephone")
     def enter_telephone(self, telephone):
         self.wait.until(EC.element_to_be_clickable(self.TELEPHONE)).send_keys(telephone)
-        time.sleep(1)
+        # time.sleep(1)
 
         # фото1
 
@@ -242,7 +242,7 @@ class OfferPage(BasePage):
     def photo_1(self):
         self.driver.find_elements(By.XPATH, '//*[@id="id_photo1"]')[0].send_keys(
             'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp')
-        time.sleep(1)
+        # time.sleep(1)
 
         # фото2
 
@@ -250,7 +250,7 @@ class OfferPage(BasePage):
     def photo_2(self):
         self.driver.find_elements(By.XPATH, '//*[@id="id_photo2"]')[0].send_keys(
             'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.qdHoOLa4BTjej4c1thrrkuSaBz5WmYcu3pQHOliRDTJe.webp')
-        time.sleep(1)
+        # time.sleep(1)
 
         # фото3
 
@@ -258,18 +258,18 @@ class OfferPage(BasePage):
     def photo_3(self):
         self.driver.find_elements(By.XPATH, '//*[@id="id_photo3"]')[0].send_keys(
             'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp')
-        time.sleep(1)
+        # time.sleep(1)
 
         # Описание
 
     @allure.step("Enter on description")
     def enter_description(self, description):
         self.wait.until(EC.element_to_be_clickable(self.DESCRIPTION)).send_keys(description)
-        time.sleep(1)
+        # time.sleep(1)
 
         # Сохранение
 
     @allure.step("Click on save button")
     def save_button(self):
         self.wait.until(EC.element_to_be_clickable(self.SAVE_BUTTON)).click()
-        time.sleep(5)
+        # time.sleep(5)

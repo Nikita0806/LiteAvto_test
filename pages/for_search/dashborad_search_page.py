@@ -29,75 +29,75 @@ class Search(BasePage):
     def scrol_down_button(self):                                                     # скролл до след. страницы
         nest_page = self.driver.find_element(By.XPATH, '/html/body/nav/ul/li[3]/a')
         self.driver.execute_script("arguments[0].scrollIntoView();", nest_page)
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on next page")
     def next_page(self):                                                             # след. страница
         self.wait.until(EC.element_to_be_clickable(self.NEXT_PAGE)).click()
-        time.sleep(2)
+        # time.sleep(2)
 
     @allure.step("Click on search marka")
     def click_search_marka(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_MARKA)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select marka")
     def click_select_marka(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_MARKA)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on search model")
     def click_search_model(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_MODEL)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select model")
     def click_select_model(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_MODEL)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on search cuzov")
     def click_search_cuzov(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_CUZOV)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click on select cuzov")
     def click_select_cuzov(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_CUZOV)).click()
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Enter start price")
     def start_price(self, new_price):
         self.wait.until(EC.element_to_be_clickable(self.START_PRICE)).send_keys(new_price)
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Enter end price")
     def end_price(self, new_price):
         self.wait.until(EC.element_to_be_clickable(self.END_PRICE)).send_keys(new_price)
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Enter start mileage")
     def start_mileage(self, new_mileage):
         self.wait.until(EC.element_to_be_clickable(self.START_MILEAGE)).send_keys(new_mileage)
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Enter end mileage")
     def end_mileage(self, new_mileage):
         self.wait.until(EC.element_to_be_clickable(self.END_MILEAGE)).send_keys(new_mileage)
-        time.sleep(1)
+        # time.sleep(1)
 
     @allure.step("Click explore button")
     def explore_search(self):
         self.wait.until(EC.element_to_be_clickable(self.EXPLORE_BUTTON)).click()
-        time.sleep(2)
+        # time.sleep(2)
 
     @allure.step("Click car card 1")
     def car_card_1(self):
         self.wait.until(EC.element_to_be_clickable(self.CAR_CARD_1)).click()
-        time.sleep(2)
+        # time.sleep(2)
 
     @allure.step("Click car card 2")
     def car_card_2(self):
         self.wait.until(EC.element_to_be_clickable(self.CAR_CARD_2)).click()
-        time.sleep(2)
+        # time.sleep(2)
 
