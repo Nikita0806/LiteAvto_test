@@ -41,6 +41,9 @@ class OfferPage(BasePage):
     TELEPHONE = ("xpath", '//*[@id="id_tel"]')  # Телефон
     DESCRIPTION = ("xpath", '//*[@id="id_opis"]')  # Описание
     SAVE_BUTTON = ("xpath", '/html/body/form/div/button')
+    PHOTO1 = ("xpath", '//*[@id="id_photo1"]')
+    PHOTO2 = ("xpath", '//*[@id="id_photo2"]')
+    PHOTO3 = ("xpath", '//*[@id="id_photo3"]')
 
     @allure.step("Scroll page to the button")
     def scrol_save_button(self):
@@ -239,26 +242,31 @@ class OfferPage(BasePage):
         # фото1
 
     @allure.step("Enter on photo 1")
-    def photo_1(self):
-        self.driver.find_elements(By.XPATH, '//*[@id="id_photo1"]')[0].send_keys(
-            'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp')
+    def photo_1(self, photo1):
+        self.wait.until(EC.element_to_be_clickable(self.PHOTO1)).send_keys(photo1)
         # time.sleep(1)
 
         # фото2
-
     @allure.step("Enter on photo 2")
-    def photo_2(self):
-        self.driver.find_elements(By.XPATH, '//*[@id="id_photo2"]')[0].send_keys(
-            'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.qdHoOLa4BTjej4c1thrrkuSaBz5WmYcu3pQHOliRDTJe.webp')
+    def photo_2(self, photo2):
+        self.wait.until(EC.element_to_be_clickable(self.PHOTO2)).send_keys(photo2)
         # time.sleep(1)
-
-        # фото3
-
+    # @allure.step("Enter on photo 2")
+    # def photo_2(self):
+    #     self.driver.find_elements(By.XPATH, '//*[@id="id_photo2"]')[0].send_keys(
+    #         'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.qdHoOLa4BTjej4c1thrrkuSaBz5WmYcu3pQHOliRDTJe.webp')
+    #     # time.sleep(1)
+    #
+    #     # фото3
     @allure.step("Enter on photo 3")
-    def photo_3(self):
-        self.driver.find_elements(By.XPATH, '//*[@id="id_photo3"]')[0].send_keys(
-            'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp')
+    def photo_3(self, photo3):
+        self.wait.until(EC.element_to_be_clickable(self.PHOTO3)).send_keys(photo3)
         # time.sleep(1)
+    # @allure.step("Enter on photo 3")
+    # def photo_3(self):
+    #     self.driver.find_elements(By.XPATH, '//*[@id="id_photo3"]')[0].send_keys(
+    #         'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp')
+    #     # time.sleep(1)
 
         # Описание
 
