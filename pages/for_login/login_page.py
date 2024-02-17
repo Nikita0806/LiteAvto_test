@@ -26,4 +26,4 @@ class LoginPage(BasePage):
     @allure.step("Click on submit button")
     def click_submit_button(self):
         self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()
-        # time.sleep(2)
+        time.sleep(2)

@@ -85,4 +85,4 @@ class AdminPage(BasePage):
     @allure.step("Click on save button")
     def save_button(self):
         self.wait.until(EC.element_to_be_clickable(self.SAVE)).click()
-        # time.sleep(1)
+        time.sleep(2)

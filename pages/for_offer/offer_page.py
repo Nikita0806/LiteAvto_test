@@ -272,4 +272,4 @@ class OfferPage(BasePage):
     @allure.step("Click on save button")
     def save_button(self):
         self.wait.until(EC.element_to_be_clickable(self.SAVE_BUTTON)).click()
-        # time.sleep(5)
+        time.sleep(2)

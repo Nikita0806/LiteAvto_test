@@ -20,9 +20,8 @@ jobs:                                                               # серви
         env:                                                        # переменные
           LOGIN: ${{ secrets.LOGIN }}                               # логин
           PASSWORD: ${{ secrets.PASSWORD }}                         # пароль
-          R_LOGIN: ${{ secrets.LOGIN }}                             # логин
-          R_PASSWORD: ${{ secrets.PASSWORD }}                       # пароль
-          R_REPEAT_PASSWORD: ${{ secrets.PASSWORD }}                # пароль
+          R_PASSWORD: ${{ secrets.R_PASSWORD }}                     # пароль
+          R_REPEAT_PASSWORD: ${{ secrets.R_REPEAT_PASSWORD }}       # пароль
         run: |                                                      # команда
           docker-compose up --exit-code-from regression || true     
 

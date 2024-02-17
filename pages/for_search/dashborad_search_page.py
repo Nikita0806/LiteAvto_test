@@ -84,12 +84,12 @@ class Search(BasePage):
     @allure.step("Enter end mileage")
     def end_mileage(self, new_mileage):
         self.wait.until(EC.element_to_be_clickable(self.END_MILEAGE)).send_keys(new_mileage)
-        # time.sleep(1)
+        time.sleep(1)
 
     @allure.step("Click explore button")
     def explore_search(self):
         self.wait.until(EC.element_to_be_clickable(self.EXPLORE_BUTTON)).click()
-        # time.sleep(2)
+        time.sleep(3)
 
     @allure.step("Click car card 1")
     def car_card_1(self):

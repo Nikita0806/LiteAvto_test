@@ -33,7 +33,7 @@ class RegistrationPage(BasePage):
     @allure.step("Click submit button")
     def click_submit_button(self):
         self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()
-        # time.sleep(2)
+        time.sleep(5)
 
     @allure.step("Click exit login")
     def exit_login(self):
