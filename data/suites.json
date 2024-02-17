@@ -8,13 +8,13 @@
         "name" : "TestQuestionnaire",
         "children" : [ {
           "name" : "Offer",
-          "uid" : "5ddd3e79368bfa35",
+          "uid" : "c210879f77c4c098",
           "parentUid" : "447807d91c428a4ec5221f28e1ae6c5d",
           "status" : "broken",
           "time" : {
-            "start" : 1708165356564,
-            "stop" : 1708165363856,
-            "duration" : 7292
+            "start" : 1708166397692,
+            "stop" : 1708166404787,
+            "duration" : 7095
           },
           "flaky" : false,
           "newFailed" : false,
