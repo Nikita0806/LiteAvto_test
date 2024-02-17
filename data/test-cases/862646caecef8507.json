@@ -1,12 +1,12 @@
 {
-  "uid" : "b900aeb2f211011f",
+  "uid" : "862646caecef8507",
   "name" : "Login",
   "fullName" : "tests.test_login.TestLogin#test_login",
   "historyId" : "2116f0ad00ab1de0effc54f114dd9496",
   "time" : {
-    "start" : 1708156457527,
-    "stop" : 1708156460115,
-    "duration" : 2588
+    "start" : 1708157132362,
+    "stop" : 1708157137282,
+    "duration" : 4920
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1708156457167,
-      "stop" : 1708156457526,
-      "duration" : 359
+      "start" : 1708157131989,
+      "stop" : 1708157132362,
+      "duration" : 373
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1708156457526,
-      "stop" : 1708156457526,
+      "start" : 1708157132362,
+      "stop" : 1708157132362,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://liteavto.pythonanywhere.com/ page",
       "time" : {
-        "start" : 1708156457527,
-        "stop" : 1708156459110,
-        "duration" : 1583
+        "start" : 1708157132362,
+        "stop" : 1708157134023,
+        "duration" : 1661
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
       "time" : {
-        "start" : 1708156459110,
-        "stop" : 1708156459113,
+        "start" : 1708157134023,
+        "stop" : 1708157134026,
         "duration" : 3
       },
       "status" : "passed",
@@ -77,9 +77,9 @@
     }, {
       "name" : "Click on login",
       "time" : {
-        "start" : 1708156459113,
-        "stop" : 1708156459203,
-        "duration" : 90
+        "start" : 1708157134026,
+        "stop" : 1708157134113,
+        "duration" : 87
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Open https://liteavto.pythonanywhere.com/login page",
       "time" : {
-        "start" : 1708156459203,
-        "stop" : 1708156459247,
-        "duration" : 44
+        "start" : 1708157134113,
+        "stop" : 1708157134161,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1708156459247,
-        "stop" : 1708156459298,
-        "duration" : 51
+        "start" : 1708157134161,
+        "stop" : 1708157134210,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,9 +125,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1708156459298,
-        "stop" : 1708156459348,
-        "duration" : 50
+        "start" : 1708157134210,
+        "stop" : 1708157134261,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     }, {
       "name" : "Click on submit button",
       "time" : {
-        "start" : 1708156459348,
-        "stop" : 1708156460115,
-        "duration" : 767
+        "start" : 1708157134261,
+        "stop" : 1708157137282,
+        "duration" : 3021
       },
       "status" : "passed",
       "steps" : [ ],
@@ -166,9 +166,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1708156460116,
-      "stop" : 1708156460200,
-      "duration" : 84
+      "start" : 1708157137283,
+      "stop" : 1708157137368,
+      "duration" : 85
     },
     "status" : "passed",
     "steps" : [ ],
@@ -180,11 +180,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Medium"
-  }, {
     "name" : "feature",
     "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "Medium"
   }, {
     "name" : "tag",
     "value" : "login"
@@ -199,7 +199,7 @@
     "value" : "TestLogin"
   }, {
     "name" : "host",
-    "value" : "1474e180750e"
+    "value" : "f1d64af5b274"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -226,6 +226,6 @@
     "categories" : [ ],
     "tags" : [ "login" ]
   },
-  "source" : "b900aeb2f211011f.json",
+  "source" : "862646caecef8507.json",
   "parameterValues" : [ ]
 }
