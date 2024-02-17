@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
+      "children" : [ {
+        "name" : "Offer",
+        "uid" : "5ddd3e79368bfa35",
+        "parentUid" : "0123ae39915e309b1ef4f294c1ca6868",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708165356564,
+          "stop" : 1708165363856,
+          "duration" : 7292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0123ae39915e309b1ef4f294c1ca6868"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
