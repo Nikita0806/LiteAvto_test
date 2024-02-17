@@ -1,12 +1,12 @@
 {
-  "uid" : "49909e64b744bb37",
+  "uid" : "eceaf2b92a44a622",
   "name" : "Login",
   "fullName" : "tests.test_login.TestLogin#test_login",
   "historyId" : "2116f0ad00ab1de0effc54f114dd9496",
   "time" : {
-    "start" : 1708157442829,
-    "stop" : 1708157446423,
-    "duration" : 3594
+    "start" : 1708158302539,
+    "stop" : 1708158306723,
+    "duration" : 4184
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1708157442443,
-      "stop" : 1708157442828,
-      "duration" : 385
+      "start" : 1708158302124,
+      "stop" : 1708158302539,
+      "duration" : 415
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1708157442829,
-      "stop" : 1708157442829,
+      "start" : 1708158302539,
+      "stop" : 1708158302539,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://liteavto.pythonanywhere.com/ page",
       "time" : {
-        "start" : 1708157442829,
-        "stop" : 1708157445041,
-        "duration" : 2212
+        "start" : 1708158302539,
+        "stop" : 1708158305334,
+        "duration" : 2795
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
       "time" : {
-        "start" : 1708157445041,
-        "stop" : 1708157445044,
+        "start" : 1708158305334,
+        "stop" : 1708158305337,
         "duration" : 3
       },
       "status" : "passed",
@@ -77,9 +77,9 @@
     }, {
       "name" : "Click on login",
       "time" : {
-        "start" : 1708157445044,
-        "stop" : 1708157445282,
-        "duration" : 238
+        "start" : 1708158305337,
+        "stop" : 1708158305563,
+        "duration" : 226
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Open https://liteavto.pythonanywhere.com/login page",
       "time" : {
-        "start" : 1708157445282,
-        "stop" : 1708157445459,
-        "duration" : 177
+        "start" : 1708158305563,
+        "stop" : 1708158305741,
+        "duration" : 178
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1708157445459,
-        "stop" : 1708157445510,
-        "duration" : 51
+        "start" : 1708158305741,
+        "stop" : 1708158305791,
+        "duration" : 50
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,9 +125,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1708157445510,
-        "stop" : 1708157445561,
-        "duration" : 51
+        "start" : 1708158305791,
+        "stop" : 1708158305840,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     }, {
       "name" : "Click on submit button",
       "time" : {
-        "start" : 1708157445561,
-        "stop" : 1708157446423,
-        "duration" : 862
+        "start" : 1708158305841,
+        "stop" : 1708158306723,
+        "duration" : 882
       },
       "status" : "passed",
       "steps" : [ ],
@@ -166,8 +166,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1708157446424,
-      "stop" : 1708157446509,
+      "start" : 1708158306724,
+      "stop" : 1708158306809,
       "duration" : 85
     },
     "status" : "passed",
@@ -199,7 +199,7 @@
     "value" : "TestLogin"
   }, {
     "name" : "host",
-    "value" : "3f6ce3af1c14"
+    "value" : "858657d433e1"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -224,8 +224,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "49909e64b744bb37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708157442829,
+          "stop" : 1708157446423,
+          "duration" : 3594
+        }
+      } ]
+    },
     "tags" : [ "login" ]
   },
-  "source" : "49909e64b744bb37.json",
+  "source" : "eceaf2b92a44a622.json",
   "parameterValues" : [ ]
 }
