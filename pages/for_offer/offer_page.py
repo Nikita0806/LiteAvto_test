@@ -241,7 +241,7 @@ class OfferPage(BasePage):
     @allure.step("Enter on photo 1")
     def photo_1(self):
         self.driver.find_elements(By.XPATH, '//*[@id="id_photo1"]')[0].send_keys(
-            'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp')
+            'https://github.com/Nikita0806/LiteAvto_test/blob/51b218ac062ab4db8e5a47d374c8a421eab46cab/photo/1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp')
         # time.sleep(1)
 
         # фото2
@@ -249,7 +249,7 @@ class OfferPage(BasePage):
     @allure.step("Enter on photo 2")
     def photo_2(self):
         self.driver.find_elements(By.XPATH, '//*[@id="id_photo2"]')[0].send_keys(
-            'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.qdHoOLa4BTjej4c1thrrkuSaBz5WmYcu3pQHOliRDTJe.webp')
+            'https://github.com/Nikita0806/LiteAvto_test/blob/51b218ac062ab4db8e5a47d374c8a421eab46cab/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp')
         # time.sleep(1)
 
         # фото3
@@ -257,7 +257,7 @@ class OfferPage(BasePage):
     @allure.step("Enter on photo 3")
     def photo_3(self):
         self.driver.find_elements(By.XPATH, '//*[@id="id_photo3"]')[0].send_keys(
-            'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp')
+            'https://github.com/Nikita0806/LiteAvto_test/blob/51b218ac062ab4db8e5a47d374c8a421eab46cab/photo/1.qdHoOLa4BTjej4c1thrrkuSaBz5WmYcu3pQHOliRDTJe.webp')
         # time.sleep(1)
 
         # Описание
