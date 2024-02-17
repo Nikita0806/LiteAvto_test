@@ -1,6 +1,7 @@
 name: UI Tests                                                      # Имя наших тестов
 
-on: workflow_dispatch                                               # триггер для запуска теста
+#on: workflow_dispatch                                               # триггер для запуска теста
+on: [push]                                               # триггер для запуска теста
 
 jobs:                                                               # сервисы
   ui-tests:                                                         # название
