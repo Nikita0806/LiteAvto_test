@@ -1,0 +1,11 @@
+[ {
+  "uid" : "18fedc602a7b06ff",
+  "name" : "Full test",
+  "time" : {
+    "start" : 1708155761323,
+    "stop" : 1708155776704,
+    "duration" : 15381
+  },
+  "status" : "broken",
+  "severity" : "critical"
+} ]

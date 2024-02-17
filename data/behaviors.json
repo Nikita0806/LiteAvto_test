@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Full check",
+    "children" : [ {
+      "name" : "Full test",
+      "uid" : "18fedc602a7b06ff",
+      "parentUid" : "ae115d0301ef2404e9eeb4e858214b70",
+      "status" : "broken",
+      "time" : {
+        "start" : 1708155761323,
+        "stop" : 1708155776704,
+        "duration" : 15381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae115d0301ef2404e9eeb4e858214b70"
+  } ],
+  "name" : "behaviors"
+}
