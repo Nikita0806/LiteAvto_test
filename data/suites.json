@@ -3,26 +3,26 @@
   "children" : [ {
     "name" : "tests",
     "children" : [ {
-      "name" : "test_full",
+      "name" : "test_login",
       "children" : [ {
-        "name" : "TestFullСheck",
+        "name" : "TestLogin",
         "children" : [ {
-          "name" : "Full test",
-          "uid" : "84166e135c6b31b4",
-          "parentUid" : "47b1896374126a5ef80dd71a868c3feb",
-          "status" : "broken",
+          "name" : "Login",
+          "uid" : "b900aeb2f211011f",
+          "parentUid" : "e073428b7a30684178c11e51fcc1e40c",
+          "status" : "passed",
           "time" : {
-            "start" : 1708156013614,
-            "stop" : 1708156021101,
-            "duration" : 7487
+            "start" : 1708156457527,
+            "stop" : 1708156460115,
+            "duration" : 2588
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "47b1896374126a5ef80dd71a868c3feb"
+        "uid" : "e073428b7a30684178c11e51fcc1e40c"
       } ],
-      "uid" : "14601924e3f492d9fd491c2a3b99c10b"
+      "uid" : "d705d85621c348f9ae8ade89e0447582"
     } ],
     "uid" : "e387fa4bb326b54ea8c19c2822aba374"
   } ],

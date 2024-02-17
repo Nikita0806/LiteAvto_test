@@ -1,11 +1,11 @@
 [ {
-  "uid" : "84166e135c6b31b4",
-  "name" : "Full test",
+  "uid" : "b900aeb2f211011f",
+  "name" : "Login",
   "time" : {
-    "start" : 1708156013614,
-    "stop" : 1708156021101,
-    "duration" : 7487
+    "start" : 1708156457527,
+    "stop" : 1708156460115,
+    "duration" : 2588
   },
-  "status" : "broken",
-  "severity" : "critical"
+  "status" : "passed",
+  "severity" : "normal"
 } ]

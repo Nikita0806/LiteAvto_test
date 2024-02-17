@@ -1,21 +1,20 @@
 {
-  "8e60ee14f1560876ffd078206eeefcef" : {
+  "2116f0ad00ab1de0effc54f114dd9496" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "84166e135c6b31b4",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
+      "uid" : "b900aeb2f211011f",
+      "status" : "passed",
       "time" : {
-        "start" : 1708156013614,
-        "stop" : 1708156021101,
-        "duration" : 7487
+        "start" : 1708156457527,
+        "stop" : 1708156460115,
+        "duration" : 2588
       }
     } ]
   }
