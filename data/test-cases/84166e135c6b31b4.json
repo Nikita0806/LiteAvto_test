@@ -1,0 +1,1186 @@
+{
+  "uid" : "84166e135c6b31b4",
+  "name" : "Full test",
+  "fullName" : "tests.test_full.TestFullСheck#test_full",
+  "historyId" : "8e60ee14f1560876ffd078206eeefcef",
+  "time" : {
+    "start" : 1708156013614,
+    "stop" : 1708156021101,
+    "duration" : 7487
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
+  "statusTrace" : "self = <test_full.TestFullСheck object at 0x7fa7b826a660>\n\n    @allure.title(\"Full test\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.registration\n    def test_full(self):\n            # РЕГИСТРАЦИЯ\n        self.dashboard_registration_page.open()                                     # Открытие главной страницы\n        self.dashboard_registration_page.is_opened()                                # Проверка на открытие\n        self.dashboard_registration_page.click_registration()                       # Клик на регистрация\n        self.registration_page.open()                                               # Открытие страницы регистрации\n        self.registration_page.enter_login(self.data.R_LOGIN)                       # ввод логина\n        self.registration_page.enter_password(self.data.R_PASSWORD)                 # ввод пароля\n        self.registration_page.enter_repeat_password(self.data.R_REPEAT_PASSWORD)   # ввод пароля\n        self.registration_page.click_submit_button()                                # Клик на кнопку сохранить\n        self.registration_page.exit_login()                                         # Выход из логина\n            # ЛОГИН\n        self.login_page.enter_login(self.data.R_LOGIN)                              # ввод логина\n        self.login_page.enter_password(self.data.R_PASSWORD)                        # ввод пароля\n        self.login_page.click_submit_button()                                       # нажатие на войти\n            # ФИЛТЕР\n        self.search.scrol_down_button()                                             # Скролл страницы до кнопки\n        self.search.next_page()                                                     # Следующая страница\n        self.search.scrol_down()                                                    # Скролл вниз\n        self.search.scrol_up()                                                      # Скролл вверх\n        self.search.click_search_marka()                                            # Выпадающий список марок\n        self.search.click_select_marka()                                            # Выбор марки\n        self.search.click_search_model()                                            # Выпадающий список модели\n        self.search.click_select_model()                                            # Выбор модели\n        self.search.click_search_cuzov()                                            # Выпадающий список кузовов\n        self.search.click_select_cuzov()                                            # Выбор кузова\n        self.search.start_price(f\"26{random.randint(1000, 100000)}\")                # Заполнение цены от\n        self.search.end_price(f\"3{random.randint(10000, 1000000)}\")                 # Заполнение цены до\n        self.search.start_mileage(f\"46{random.randint(10, 1000)}\")                  # Заполнение пробега от\n        self.search.end_mileage(f\"5{random.randint(100, 10000)}\")                   # Заполнение пробега до\n        self.search.explore_search()                                                # Поиск\n        self.search.car_card_1()                                                    # Открытие карточки авто\n        self.search.scrol_down()                                                    # Скролл в карточке авто вниз\n        self.search.scrol_up()                                                      # Скролл в карточке авто вверх\n            # ДОБВАЛЕНИЕ АВТОМОБИЛЯ\n        self.dashboard_offer_page.click_offer()                                     # Клик добавление автомобил\n        self.offer_page.scrol_save_button()                                         # Скролл до кнопки сохранить\n        self.offer_page.scrol_up()                                                  # Скролл вверх\n        # Заполнение анкеты\n        self.offer_page.click_search_marka()                                        # Выпадающий список марок\n        self.offer_page.click_select_marka()                                        # Выбор марки\n        self.offer_page.click_search_model()                                        # Выпадающий список модели\n        self.offer_page.click_select_model()                                        # Выбор модели\n        self.offer_page.click_search_cuzov()                                        # Выпадающий список кузовов\n        self.offer_page.click_select_cuzov()                                        # Выбор кузова\n        self.offer_page.enter_color('Синий')                                        # Ввод цвета\n        self.offer_page.enter_vin('VIN777C37')                                      # Ввод вин номера\n        self.offer_page.enter_equipment('SE')                                       # Ввод комплектации\n        self.offer_page.click_search_date()                                         # Выпадающий список дат\n        self.offer_page.click_select_date()                                         # Выбор даты\n        self.offer_page.scrol_down()                                                # Скролл ниже\n        self.offer_page.enter_price('2249999')                                      # Ввод цены\n        self.offer_page.enter_mileage('80100')                                      # Ввод пробега\n        self.offer_page.click_search_transmission()                                 # Выпадающий список трансмиссии\n        self.offer_page.click_select_transmission()                                 # Выбор трансмиссии\n        self.offer_page.click_search_engine_capacity()                              # Выпадающий список объёма двигателя\n        self.offer_page.click_select_engine_capacity()                              # Выбор объёма двигателя\n        self.offer_page.click_search_engine_type()                                  # Выпадающий список типа двигателя\n        self.offer_page.click_select_engine_type()                                  # Выбор типа двигателя\n        self.offer_page.click_search_drive_unit()                                   # Выпадающий список привода\n        self.offer_page.click_select_drive_unit()                                   # Выбор привода\n        self.offer_page.click_search_state()                                        # Выпадающий список состояния\n        self.offer_page.click_select_state()                                        # Выбор состояни\n        self.offer_page.scrol_down()                                                # Скролл ниже\n        self.offer_page.enter_horsepower('203')                                     # Ввод л.с\n        self.offer_page.click_search_pts()                                          # Выпадающий список птс\n        self.offer_page.click_select_pts()                                          # Выбор птс\n        self.offer_page.enter_owners('1')                                           # Ввод кол-ва хозяев\n        self.offer_page.click_search_accounting()                                   # Выпадающий список учета\n        self.offer_page.click_select_accounting()                                   # Ввыбор учета\n        self.offer_page.enter_telephone('79010334445')                              # Ввод номера телефона\n        self.offer_page.scrol_down()                                                # Скролл ниже\n>       self.offer_page.photo_1()                                                   # Вставка фото 1\n\ntests/test_full.py:85: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/for_offer/offer_page.py:243: in photo_1\n    self.driver.find_elements(By.XPATH, '//*[@id=\"id_photo1\"]')[0].send_keys(\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:231: in send_keys\n    self._execute(\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:395: in _execute\n    return self._parent.execute(command, params)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:347: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7fa7b7a96fc0>\nresponse = {'status': 400, 'value': '{\"value\":{\"error\":\"invalid argument\",\"message\":\"invalid argument: File not found : C:\\\\\\\\Use...IFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\\\\n  (Session info: headless chrome=112.0.5615.165)\",\"stacktrace\":\"\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(\"__\")]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\nE         (Session info: headless chrome=112.0.5615.165)\n\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py:229: InvalidArgumentException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1708156013614,
+      "stop" : 1708156013614,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1708156013233,
+      "stop" : 1708156013614,
+      "duration" : 381
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
+    "statusTrace" : "self = <test_full.TestFullСheck object at 0x7fa7b826a660>\n\n    @allure.title(\"Full test\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.registration\n    def test_full(self):\n            # РЕГИСТРАЦИЯ\n        self.dashboard_registration_page.open()                                     # Открытие главной страницы\n        self.dashboard_registration_page.is_opened()                                # Проверка на открытие\n        self.dashboard_registration_page.click_registration()                       # Клик на регистрация\n        self.registration_page.open()                                               # Открытие страницы регистрации\n        self.registration_page.enter_login(self.data.R_LOGIN)                       # ввод логина\n        self.registration_page.enter_password(self.data.R_PASSWORD)                 # ввод пароля\n        self.registration_page.enter_repeat_password(self.data.R_REPEAT_PASSWORD)   # ввод пароля\n        self.registration_page.click_submit_button()                                # Клик на кнопку сохранить\n        self.registration_page.exit_login()                                         # Выход из логина\n            # ЛОГИН\n        self.login_page.enter_login(self.data.R_LOGIN)                              # ввод логина\n        self.login_page.enter_password(self.data.R_PASSWORD)                        # ввод пароля\n        self.login_page.click_submit_button()                                       # нажатие на войти\n            # ФИЛТЕР\n        self.search.scrol_down_button()                                             # Скролл страницы до кнопки\n        self.search.next_page()                                                     # Следующая страница\n        self.search.scrol_down()                                                    # Скролл вниз\n        self.search.scrol_up()                                                      # Скролл вверх\n        self.search.click_search_marka()                                            # Выпадающий список марок\n        self.search.click_select_marka()                                            # Выбор марки\n        self.search.click_search_model()                                            # Выпадающий список модели\n        self.search.click_select_model()                                            # Выбор модели\n        self.search.click_search_cuzov()                                            # Выпадающий список кузовов\n        self.search.click_select_cuzov()                                            # Выбор кузова\n        self.search.start_price(f\"26{random.randint(1000, 100000)}\")                # Заполнение цены от\n        self.search.end_price(f\"3{random.randint(10000, 1000000)}\")                 # Заполнение цены до\n        self.search.start_mileage(f\"46{random.randint(10, 1000)}\")                  # Заполнение пробега от\n        self.search.end_mileage(f\"5{random.randint(100, 10000)}\")                   # Заполнение пробега до\n        self.search.explore_search()                                                # Поиск\n        self.search.car_card_1()                                                    # Открытие карточки авто\n        self.search.scrol_down()                                                    # Скролл в карточке авто вниз\n        self.search.scrol_up()                                                      # Скролл в карточке авто вверх\n            # ДОБВАЛЕНИЕ АВТОМОБИЛЯ\n        self.dashboard_offer_page.click_offer()                                     # Клик добавление автомобил\n        self.offer_page.scrol_save_button()                                         # Скролл до кнопки сохранить\n        self.offer_page.scrol_up()                                                  # Скролл вверх\n        # Заполнение анкеты\n        self.offer_page.click_search_marka()                                        # Выпадающий список марок\n        self.offer_page.click_select_marka()                                        # Выбор марки\n        self.offer_page.click_search_model()                                        # Выпадающий список модели\n        self.offer_page.click_select_model()                                        # Выбор модели\n        self.offer_page.click_search_cuzov()                                        # Выпадающий список кузовов\n        self.offer_page.click_select_cuzov()                                        # Выбор кузова\n        self.offer_page.enter_color('Синий')                                        # Ввод цвета\n        self.offer_page.enter_vin('VIN777C37')                                      # Ввод вин номера\n        self.offer_page.enter_equipment('SE')                                       # Ввод комплектации\n        self.offer_page.click_search_date()                                         # Выпадающий список дат\n        self.offer_page.click_select_date()                                         # Выбор даты\n        self.offer_page.scrol_down()                                                # Скролл ниже\n        self.offer_page.enter_price('2249999')                                      # Ввод цены\n        self.offer_page.enter_mileage('80100')                                      # Ввод пробега\n        self.offer_page.click_search_transmission()                                 # Выпадающий список трансмиссии\n        self.offer_page.click_select_transmission()                                 # Выбор трансмиссии\n        self.offer_page.click_search_engine_capacity()                              # Выпадающий список объёма двигателя\n        self.offer_page.click_select_engine_capacity()                              # Выбор объёма двигателя\n        self.offer_page.click_search_engine_type()                                  # Выпадающий список типа двигателя\n        self.offer_page.click_select_engine_type()                                  # Выбор типа двигателя\n        self.offer_page.click_search_drive_unit()                                   # Выпадающий список привода\n        self.offer_page.click_select_drive_unit()                                   # Выбор привода\n        self.offer_page.click_search_state()                                        # Выпадающий список состояния\n        self.offer_page.click_select_state()                                        # Выбор состояни\n        self.offer_page.scrol_down()                                                # Скролл ниже\n        self.offer_page.enter_horsepower('203')                                     # Ввод л.с\n        self.offer_page.click_search_pts()                                          # Выпадающий список птс\n        self.offer_page.click_select_pts()                                          # Выбор птс\n        self.offer_page.enter_owners('1')                                           # Ввод кол-ва хозяев\n        self.offer_page.click_search_accounting()                                   # Выпадающий список учета\n        self.offer_page.click_select_accounting()                                   # Ввыбор учета\n        self.offer_page.enter_telephone('79010334445')                              # Ввод номера телефона\n        self.offer_page.scrol_down()                                                # Скролл ниже\n>       self.offer_page.photo_1()                                                   # Вставка фото 1\n\ntests/test_full.py:85: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/for_offer/offer_page.py:243: in photo_1\n    self.driver.find_elements(By.XPATH, '//*[@id=\"id_photo1\"]')[0].send_keys(\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:231: in send_keys\n    self._execute(\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:395: in _execute\n    return self._parent.execute(command, params)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:347: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7fa7b7a96fc0>\nresponse = {'status': 400, 'value': '{\"value\":{\"error\":\"invalid argument\",\"message\":\"invalid argument: File not found : C:\\\\\\\\Use...IFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\\\\n  (Session info: headless chrome=112.0.5615.165)\",\"stacktrace\":\"\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(\"__\")]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\nE         (Session info: headless chrome=112.0.5615.165)\n\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py:229: InvalidArgumentException",
+    "steps" : [ {
+      "name" : "Open https://liteavto.pythonanywhere.com/ page",
+      "time" : {
+        "start" : 1708156013614,
+        "stop" : 1708156015980,
+        "duration" : 2366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
+      "time" : {
+        "start" : 1708156015980,
+        "stop" : 1708156015983,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on registration",
+      "time" : {
+        "start" : 1708156015983,
+        "stop" : 1708156016217,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open https://liteavto.pythonanywhere.com/register page",
+      "time" : {
+        "start" : 1708156016217,
+        "stop" : 1708156016389,
+        "duration" : 172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter login",
+      "time" : {
+        "start" : 1708156016389,
+        "stop" : 1708156016439,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'garpix'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password",
+      "time" : {
+        "start" : 1708156016439,
+        "stop" : 1708156016490,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'garpix911'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter repeat password",
+      "time" : {
+        "start" : 1708156016490,
+        "stop" : 1708156016541,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'garpix911'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click submit button",
+      "time" : {
+        "start" : 1708156016541,
+        "stop" : 1708156016682,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click exit login",
+      "time" : {
+        "start" : 1708156016682,
+        "stop" : 1708156016906,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter login",
+      "time" : {
+        "start" : 1708156016906,
+        "stop" : 1708156016947,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'garpix'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password",
+      "time" : {
+        "start" : 1708156016947,
+        "stop" : 1708156016995,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'garpix911'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on submit button",
+      "time" : {
+        "start" : 1708156016995,
+        "stop" : 1708156017726,
+        "duration" : 731
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scroll page to the button",
+      "time" : {
+        "start" : 1708156017726,
+        "stop" : 1708156017739,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on next page",
+      "time" : {
+        "start" : 1708156017739,
+        "stop" : 1708156018090,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/ page",
+      "time" : {
+        "start" : 1708156018090,
+        "stop" : 1708156018093,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/ page",
+      "time" : {
+        "start" : 1708156018093,
+        "stop" : 1708156018096,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search marka",
+      "time" : {
+        "start" : 1708156018097,
+        "stop" : 1708156018148,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select marka",
+      "time" : {
+        "start" : 1708156018148,
+        "stop" : 1708156018184,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search model",
+      "time" : {
+        "start" : 1708156018184,
+        "stop" : 1708156018235,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select model",
+      "time" : {
+        "start" : 1708156018235,
+        "stop" : 1708156018269,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search cuzov",
+      "time" : {
+        "start" : 1708156018270,
+        "stop" : 1708156018321,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select cuzov",
+      "time" : {
+        "start" : 1708156018322,
+        "stop" : 1708156018357,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter start price",
+      "time" : {
+        "start" : 1708156018358,
+        "stop" : 1708156018412,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "new_price",
+        "value" : "'2678466'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter end price",
+      "time" : {
+        "start" : 1708156018413,
+        "stop" : 1708156018467,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "new_price",
+        "value" : "'3210807'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter start mileage",
+      "time" : {
+        "start" : 1708156018468,
+        "stop" : 1708156018521,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "new_mileage",
+        "value" : "'46654'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter end mileage",
+      "time" : {
+        "start" : 1708156018521,
+        "stop" : 1708156018575,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "new_mileage",
+        "value" : "'54316'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click explore button",
+      "time" : {
+        "start" : 1708156018575,
+        "stop" : 1708156018784,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click car card 1",
+      "time" : {
+        "start" : 1708156018784,
+        "stop" : 1708156019199,
+        "duration" : 415
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/ page",
+      "time" : {
+        "start" : 1708156019199,
+        "stop" : 1708156019201,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/ page",
+      "time" : {
+        "start" : 1708156019201,
+        "stop" : 1708156019204,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on add car",
+      "time" : {
+        "start" : 1708156019204,
+        "stop" : 1708156019490,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scroll page to the button",
+      "time" : {
+        "start" : 1708156019490,
+        "stop" : 1708156019507,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708156019507,
+        "stop" : 1708156019510,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search marka",
+      "time" : {
+        "start" : 1708156019510,
+        "stop" : 1708156019567,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select marka",
+      "time" : {
+        "start" : 1708156019567,
+        "stop" : 1708156019603,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search model",
+      "time" : {
+        "start" : 1708156019604,
+        "stop" : 1708156019658,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select model",
+      "time" : {
+        "start" : 1708156019659,
+        "stop" : 1708156019704,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search cuzov",
+      "time" : {
+        "start" : 1708156019704,
+        "stop" : 1708156019760,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select cuzov",
+      "time" : {
+        "start" : 1708156019760,
+        "stop" : 1708156019798,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on color",
+      "time" : {
+        "start" : 1708156019799,
+        "stop" : 1708156019855,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "color",
+        "value" : "'Синий'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter on vin",
+      "time" : {
+        "start" : 1708156019855,
+        "stop" : 1708156019915,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "vin",
+        "value" : "'VIN777C37'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter on equipment",
+      "time" : {
+        "start" : 1708156019915,
+        "stop" : 1708156019970,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "equipment",
+        "value" : "'SE'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search date",
+      "time" : {
+        "start" : 1708156019970,
+        "stop" : 1708156020025,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select date",
+      "time" : {
+        "start" : 1708156020025,
+        "stop" : 1708156020066,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708156020066,
+        "stop" : 1708156020069,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on price",
+      "time" : {
+        "start" : 1708156020069,
+        "stop" : 1708156020131,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "price",
+        "value" : "'2249999'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter on mileage",
+      "time" : {
+        "start" : 1708156020131,
+        "stop" : 1708156020190,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mileage",
+        "value" : "'80100'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search transmission",
+      "time" : {
+        "start" : 1708156020190,
+        "stop" : 1708156020245,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select transmission",
+      "time" : {
+        "start" : 1708156020245,
+        "stop" : 1708156020286,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search engine capacity",
+      "time" : {
+        "start" : 1708156020286,
+        "stop" : 1708156020350,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select engine capacity",
+      "time" : {
+        "start" : 1708156020350,
+        "stop" : 1708156020390,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search engine type",
+      "time" : {
+        "start" : 1708156020390,
+        "stop" : 1708156020449,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select engine type",
+      "time" : {
+        "start" : 1708156020450,
+        "stop" : 1708156020490,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search drive unit",
+      "time" : {
+        "start" : 1708156020490,
+        "stop" : 1708156020547,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select drive unit",
+      "time" : {
+        "start" : 1708156020548,
+        "stop" : 1708156020586,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search state",
+      "time" : {
+        "start" : 1708156020586,
+        "stop" : 1708156020643,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select state",
+      "time" : {
+        "start" : 1708156020643,
+        "stop" : 1708156020684,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708156020684,
+        "stop" : 1708156020686,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on horsepower",
+      "time" : {
+        "start" : 1708156020686,
+        "stop" : 1708156020745,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "horsepower",
+        "value" : "'203'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search pts",
+      "time" : {
+        "start" : 1708156020745,
+        "stop" : 1708156020802,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select pts",
+      "time" : {
+        "start" : 1708156020802,
+        "stop" : 1708156020843,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on owners",
+      "time" : {
+        "start" : 1708156020843,
+        "stop" : 1708156020911,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "owners",
+        "value" : "'1'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search accounting",
+      "time" : {
+        "start" : 1708156020911,
+        "stop" : 1708156020968,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select accounting",
+      "time" : {
+        "start" : 1708156020969,
+        "stop" : 1708156021010,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on telephone",
+      "time" : {
+        "start" : 1708156021010,
+        "stop" : 1708156021076,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "telephone",
+        "value" : "'79010334445'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708156021076,
+        "stop" : 1708156021078,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on photo 1",
+      "time" : {
+        "start" : 1708156021078,
+        "stop" : 1708156021100,
+        "duration" : 22
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.12/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/usr/workspace/pages/for_offer/offer_page.py\", line 243, in photo_1\n    self.driver.find_elements(By.XPATH, '//*[@id=\"id_photo1\"]')[0].send_keys(\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py\", line 231, in send_keys\n    self._execute(\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py\", line 347, in execute\n    self.error_handler.check_response(response)\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py\", line 229, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 67,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1708156021153,
+      "stop" : 1708156021240,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Full check"
+  }, {
+    "name" : "tag",
+    "value" : "registration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_full"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFullСheck"
+  }, {
+    "name" : "host",
+    "value" : "3c688c7250d2"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_full"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "registration" ]
+  },
+  "source" : "84166e135c6b31b4.json",
+  "parameterValues" : [ ]
+}

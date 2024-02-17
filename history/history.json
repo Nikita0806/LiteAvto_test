@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18fedc602a7b06ff",
+      "uid" : "84166e135c6b31b4",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
       "time" : {
-        "start" : 1708155761323,
-        "stop" : 1708155776704,
-        "duration" : 15381
+        "start" : 1708156013614,
+        "stop" : 1708156021101,
+        "duration" : 7487
       }
     } ]
   }
