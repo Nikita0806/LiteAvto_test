@@ -29,13 +29,22 @@
   "c909536b7f0bdab292b5769ff46d2551" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b7d23e43465efde",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/main/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
+      "time" : {
+        "start" : 1708166621198,
+        "stop" : 1708166627581,
+        "duration" : 6383
+      }
+    }, {
       "uid" : "c210879f77c4c098",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/51b218ac062ab4db8e5a47d374c8a421eab46cab/photo/1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
