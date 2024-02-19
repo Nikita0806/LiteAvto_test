@@ -241,32 +241,37 @@ class OfferPage(BasePage):
 
         # фото1
 
-    @allure.step("Enter on photo 1")
-
-    def photo_1(self, photo1):
-        self.wait.until(EC.element_to_be_clickable(self.PHOTO1)).send_keys(photo1)
-        # time.sleep(1)
-
-        # фото2
-    @allure.step("Enter on photo 2")
-    def photo_2(self, photo2):
-        self.wait.until(EC.element_to_be_clickable(self.PHOTO2)).send_keys(photo2)
-        # time.sleep(1)
-    # @allure.step("Enter on photo 2")
-    # def photo_2(self):
-    #     self.driver.find_elements(By.XPATH, '//*[@id="id_photo2"]')[0].send_keys(
-    #         'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.qdHoOLa4BTjej4c1thrrkuSaBz5WmYcu3pQHOliRDTJe.webp')
+    # @allure.step("Enter on photo 1")
+    #
+    # def photo_1(self, photo1):
+    #     self.wait.until(EC.element_to_be_clickable(self.PHOTO1)).send_keys(photo1)
     #     # time.sleep(1)
     #
+    #     # фото2
+    # @allure.step("Enter on photo 2")
+    # def photo_2(self, photo2):
+    #     self.wait.until(EC.element_to_be_clickable(self.PHOTO2)).send_keys(photo2)
+        # time.sleep(1)
+
+    @allure.step("Enter on photo 1")
+    def photo_1(self, photo1):
+        self.driver.find_elements(By.XPATH, '//*[@id="id_photo1"]')[0].send_keys(photo1)
+        # time.sleep(1)
+
+    @allure.step("Enter on photo 2")
+    def photo_2(self, photo2):
+        self.driver.find_elements(By.XPATH, '//*[@id="id_photo2"]')[0].send_keys(photo2)
+        # time.sleep(1)
+    #
     #     # фото3
+    # @allure.step("Enter on photo 3")
+    # def photo_3(self, photo3):
+    #     self.wait.until(EC.element_to_be_clickable(self.PHOTO3)).send_keys(photo3)
+        # time.sleep(1)
+
     @allure.step("Enter on photo 3")
     def photo_3(self, photo3):
-        self.wait.until(EC.element_to_be_clickable(self.PHOTO3)).send_keys(photo3)
-        # time.sleep(1)
-    # @allure.step("Enter on photo 3")
-    # def photo_3(self):
-    #     self.driver.find_elements(By.XPATH, '//*[@id="id_photo3"]')[0].send_keys(
-    #         'C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp')
+        self.driver.find_elements(By.XPATH, '//*[@id="id_photo3"]')[0].send_keys(photo3)
 
     # def photo_1(self):
     #     self.driver.find_elements(By.XPATH, '//*[@id="id_photo1"]')[0].send_keys(

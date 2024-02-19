@@ -22,9 +22,9 @@ jobs:                                                               # серви
           PASSWORD: ${{ secrets.PASSWORD }}                         # пароль
           R_PASSWORD: ${{ secrets.R_PASSWORD }}                     # пароль
           R_REPEAT_PASSWORD: ${{ secrets.R_REPEAT_PASSWORD }}       # пароль
-          PHOTO1: ${{ secrets.PHOTO1}}
-          PHOTO2: ${{ secrets.PHOTO2}}
-          PHOTO3: ${{ secrets.PHOTO3}}
+#          PHOTO1: ${{ secrets.PHOTO1}}
+#          PHOTO2: ${{ secrets.PHOTO2}}
+#          PHOTO3: ${{ secrets.PHOTO3}}
 
         run: |                                                      # команда
           docker-compose up --exit-code-from regression || true     
