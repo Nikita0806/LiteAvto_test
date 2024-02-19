@@ -1,5 +1,30 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_offer_a_car",
+      "children" : [ {
+        "name" : "TestQuestionnaire",
+        "children" : [ {
+          "name" : "Offer",
+          "uid" : "fee51415629f0d4f",
+          "parentUid" : "447807d91c428a4ec5221f28e1ae6c5d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1708331291396,
+            "stop" : 1708331299174,
+            "duration" : 7778
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "447807d91c428a4ec5221f28e1ae6c5d"
+      } ],
+      "uid" : "0038924c44b6cfd3e2ade4bc06708d6a"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
   "name" : "suites"
 }

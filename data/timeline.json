@@ -1,5 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "4e4992d50340",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Offer",
+        "uid" : "fee51415629f0d4f",
+        "parentUid" : "f895391ec9936a3a7e14dceab9b6e7c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708331291396,
+          "stop" : 1708331299174,
+          "duration" : 7778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f895391ec9936a3a7e14dceab9b6e7c2"
+    } ],
+    "uid" : "23a57468c427951dd014896a893aae77"
+  } ],
   "name" : "timeline"
 }

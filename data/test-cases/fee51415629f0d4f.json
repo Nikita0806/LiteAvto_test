@@ -1,0 +1,900 @@
+{
+  "uid" : "fee51415629f0d4f",
+  "name" : "Offer",
+  "fullName" : "tests.test_offer_a_car.TestQuestionnaire#test_offer_a_car",
+  "historyId" : "c909536b7f0bdab292b5769ff46d2551",
+  "time" : {
+    "start" : 1708331291396,
+    "stop" : 1708331299174,
+    "duration" : 7778
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+  "statusTrace" : "self = <test_offer_a_car.TestQuestionnaire object at 0x7f84ae1ef1a0>\n\n    @allure.title(\"Offer\")\n    @allure.severity(\"Medium\")\n    @pytest.mark.offer\n    def test_offer_a_car(self):\n        self.dashboard_offer_page.open()                        #\n        self.dashboard_offer_page.is_opened()                   #\n        self.dashboard_offer_page.click_login()                 #\n        self.login_page.open()                                  #  логин\n        self.login_page.enter_login(self.data.LOGIN)            #\n        self.login_page.enter_password(self.data.PASSWORD)      #\n        self.login_page.click_submit_button()                   #\n        # Страница оффера\n        self.dashboard_offer_page.open()\n        self.dashboard_offer_page.is_opened()\n        self.dashboard_offer_page.click_offer()\n        self.offer_page.scrol_save_button()\n        self.offer_page.scrol_up()\n        # Заполнение анкеты\n        self.offer_page.click_search_marka()\n        self.offer_page.click_select_marka()\n        self.offer_page.click_search_model()\n        self.offer_page.click_select_model()\n        self.offer_page.click_search_cuzov()\n        self.offer_page.click_select_cuzov()\n        self.offer_page.enter_color('Синий')\n        self.offer_page.enter_vin('VIN777C37')\n        self.offer_page.enter_equipment('2')\n        self.offer_page.click_search_date()\n        self.offer_page.click_select_date()\n        self.offer_page.scrol_down()\n        self.offer_page.enter_price('2249999')\n        self.offer_page.enter_mileage('80100')\n        self.offer_page.click_search_transmission()\n        self.offer_page.click_select_transmission()\n        self.offer_page.click_search_engine_capacity()\n        self.offer_page.click_select_engine_capacity()\n        self.offer_page.click_search_engine_type()\n        self.offer_page.click_select_engine_type()\n        self.offer_page.click_search_drive_unit()\n        self.offer_page.click_select_drive_unit()\n        self.offer_page.click_search_state()\n        self.offer_page.click_select_state()\n        self.offer_page.scrol_down()\n        self.offer_page.enter_horsepower('203')\n        self.offer_page.click_search_pts()\n        self.offer_page.click_select_pts()\n        self.offer_page.enter_owners('1')\n        self.offer_page.click_search_accounting()\n        self.offer_page.click_select_accounting()\n        self.offer_page.enter_telephone('79010334445')\n        self.offer_page.scrol_down()\n>       self.offer_page.photo_1(self.data.PHOTO_1)\n\ntests/test_offer_a_car.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/for_offer/offer_page.py:247: in photo_1\n    self.wait.until(EC.element_to_be_clickable(self.PHOTO1)).send_keys(photo1)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1708331290979,
+      "stop" : 1708331291395,
+      "duration" : 416
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1708331291396,
+      "stop" : 1708331291396,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+    "statusTrace" : "self = <test_offer_a_car.TestQuestionnaire object at 0x7f84ae1ef1a0>\n\n    @allure.title(\"Offer\")\n    @allure.severity(\"Medium\")\n    @pytest.mark.offer\n    def test_offer_a_car(self):\n        self.dashboard_offer_page.open()                        #\n        self.dashboard_offer_page.is_opened()                   #\n        self.dashboard_offer_page.click_login()                 #\n        self.login_page.open()                                  #  логин\n        self.login_page.enter_login(self.data.LOGIN)            #\n        self.login_page.enter_password(self.data.PASSWORD)      #\n        self.login_page.click_submit_button()                   #\n        # Страница оффера\n        self.dashboard_offer_page.open()\n        self.dashboard_offer_page.is_opened()\n        self.dashboard_offer_page.click_offer()\n        self.offer_page.scrol_save_button()\n        self.offer_page.scrol_up()\n        # Заполнение анкеты\n        self.offer_page.click_search_marka()\n        self.offer_page.click_select_marka()\n        self.offer_page.click_search_model()\n        self.offer_page.click_select_model()\n        self.offer_page.click_search_cuzov()\n        self.offer_page.click_select_cuzov()\n        self.offer_page.enter_color('Синий')\n        self.offer_page.enter_vin('VIN777C37')\n        self.offer_page.enter_equipment('2')\n        self.offer_page.click_search_date()\n        self.offer_page.click_select_date()\n        self.offer_page.scrol_down()\n        self.offer_page.enter_price('2249999')\n        self.offer_page.enter_mileage('80100')\n        self.offer_page.click_search_transmission()\n        self.offer_page.click_select_transmission()\n        self.offer_page.click_search_engine_capacity()\n        self.offer_page.click_select_engine_capacity()\n        self.offer_page.click_search_engine_type()\n        self.offer_page.click_select_engine_type()\n        self.offer_page.click_search_drive_unit()\n        self.offer_page.click_select_drive_unit()\n        self.offer_page.click_search_state()\n        self.offer_page.click_select_state()\n        self.offer_page.scrol_down()\n        self.offer_page.enter_horsepower('203')\n        self.offer_page.click_search_pts()\n        self.offer_page.click_select_pts()\n        self.offer_page.enter_owners('1')\n        self.offer_page.click_search_accounting()\n        self.offer_page.click_select_accounting()\n        self.offer_page.enter_telephone('79010334445')\n        self.offer_page.scrol_down()\n>       self.offer_page.photo_1(self.data.PHOTO_1)\n\ntests/test_offer_a_car.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/for_offer/offer_page.py:247: in photo_1\n    self.wait.until(EC.element_to_be_clickable(self.PHOTO1)).send_keys(photo1)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
+    "steps" : [ {
+      "name" : "Open https://liteavto.pythonanywhere.com/ page",
+      "time" : {
+        "start" : 1708331291396,
+        "stop" : 1708331293776,
+        "duration" : 2380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
+      "time" : {
+        "start" : 1708331293776,
+        "stop" : 1708331293779,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on login",
+      "time" : {
+        "start" : 1708331293779,
+        "stop" : 1708331294008,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open https://liteavto.pythonanywhere.com/login page",
+      "time" : {
+        "start" : 1708331294008,
+        "stop" : 1708331294186,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter login",
+      "time" : {
+        "start" : 1708331294186,
+        "stop" : 1708331294234,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'garpix'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password",
+      "time" : {
+        "start" : 1708331294234,
+        "stop" : 1708331294287,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'garpix911'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on submit button",
+      "time" : {
+        "start" : 1708331294288,
+        "stop" : 1708331297127,
+        "duration" : 2839
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open https://liteavto.pythonanywhere.com/ page",
+      "time" : {
+        "start" : 1708331297127,
+        "stop" : 1708331297321,
+        "duration" : 194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
+      "time" : {
+        "start" : 1708331297321,
+        "stop" : 1708331297324,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on add car",
+      "time" : {
+        "start" : 1708331297324,
+        "stop" : 1708331297628,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scroll page to the button",
+      "time" : {
+        "start" : 1708331297628,
+        "stop" : 1708331297639,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708331297639,
+        "stop" : 1708331297643,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search marka",
+      "time" : {
+        "start" : 1708331297643,
+        "stop" : 1708331297699,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select marka",
+      "time" : {
+        "start" : 1708331297700,
+        "stop" : 1708331297736,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search model",
+      "time" : {
+        "start" : 1708331297736,
+        "stop" : 1708331297790,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select model",
+      "time" : {
+        "start" : 1708331297790,
+        "stop" : 1708331297826,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search cuzov",
+      "time" : {
+        "start" : 1708331297826,
+        "stop" : 1708331297879,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select cuzov",
+      "time" : {
+        "start" : 1708331297879,
+        "stop" : 1708331297917,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on color",
+      "time" : {
+        "start" : 1708331297917,
+        "stop" : 1708331297972,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "color",
+        "value" : "'Синий'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter on vin",
+      "time" : {
+        "start" : 1708331297972,
+        "stop" : 1708331298030,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "vin",
+        "value" : "'VIN777C37'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter on equipment",
+      "time" : {
+        "start" : 1708331298030,
+        "stop" : 1708331298085,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "equipment",
+        "value" : "'2'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search date",
+      "time" : {
+        "start" : 1708331298085,
+        "stop" : 1708331298139,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select date",
+      "time" : {
+        "start" : 1708331298139,
+        "stop" : 1708331298176,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708331298176,
+        "stop" : 1708331298179,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on price",
+      "time" : {
+        "start" : 1708331298179,
+        "stop" : 1708331298241,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "price",
+        "value" : "'2249999'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter on mileage",
+      "time" : {
+        "start" : 1708331298241,
+        "stop" : 1708331298297,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mileage",
+        "value" : "'80100'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search transmission",
+      "time" : {
+        "start" : 1708331298297,
+        "stop" : 1708331298349,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select transmission",
+      "time" : {
+        "start" : 1708331298349,
+        "stop" : 1708331298386,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search engine capacity",
+      "time" : {
+        "start" : 1708331298386,
+        "stop" : 1708331298443,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select engine capacity",
+      "time" : {
+        "start" : 1708331298443,
+        "stop" : 1708331298481,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search engine type",
+      "time" : {
+        "start" : 1708331298481,
+        "stop" : 1708331298539,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select engine type",
+      "time" : {
+        "start" : 1708331298539,
+        "stop" : 1708331298578,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search drive unit",
+      "time" : {
+        "start" : 1708331298578,
+        "stop" : 1708331298631,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select drive unit",
+      "time" : {
+        "start" : 1708331298631,
+        "stop" : 1708331298669,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on search state",
+      "time" : {
+        "start" : 1708331298669,
+        "stop" : 1708331298726,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select state",
+      "time" : {
+        "start" : 1708331298726,
+        "stop" : 1708331298767,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708331298767,
+        "stop" : 1708331298775,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on horsepower",
+      "time" : {
+        "start" : 1708331298775,
+        "stop" : 1708331298837,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "horsepower",
+        "value" : "'203'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search pts",
+      "time" : {
+        "start" : 1708331298837,
+        "stop" : 1708331298891,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select pts",
+      "time" : {
+        "start" : 1708331298891,
+        "stop" : 1708331298931,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on owners",
+      "time" : {
+        "start" : 1708331298931,
+        "stop" : 1708331298987,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "owners",
+        "value" : "'1'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search accounting",
+      "time" : {
+        "start" : 1708331298987,
+        "stop" : 1708331299042,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on select accounting",
+      "time" : {
+        "start" : 1708331299042,
+        "stop" : 1708331299083,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on telephone",
+      "time" : {
+        "start" : 1708331299083,
+        "stop" : 1708331299147,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "telephone",
+        "value" : "'79010334445'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
+      "time" : {
+        "start" : 1708331299147,
+        "stop" : 1708331299150,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter on photo 1",
+      "time" : {
+        "start" : 1708331299150,
+        "stop" : 1708331299173,
+        "duration" : 23
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not iterable\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.12/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/usr/workspace/pages/for_offer/offer_page.py\", line 247, in photo_1\n    self.wait.until(EC.element_to_be_clickable(self.PHOTO1)).send_keys(photo1)\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py\", line 232, in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n                                                   ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py\", line 137, in keys_to_typing\n    characters.extend(val)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "photo1",
+        "value" : "None"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 46,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1708331299211,
+      "stop" : 1708331299299,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Questionnaire test"
+  }, {
+    "name" : "severity",
+    "value" : "Medium"
+  }, {
+    "name" : "tag",
+    "value" : "offer"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_offer_a_car"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestQuestionnaire"
+  }, {
+    "name" : "host",
+    "value" : "4e4992d50340"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_offer_a_car"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f5ab6cc04fc8faf3",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/main/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1708330382788,
+          "stop" : 1708330390025,
+          "duration" : 7237
+        }
+      }, {
+        "uid" : "b7d23e43465efde",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/main/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1708166621198,
+          "stop" : 1708166627581,
+          "duration" : 6383
+        }
+      }, {
+        "uid" : "c210879f77c4c098",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/51b218ac062ab4db8e5a47d374c8a421eab46cab/photo/1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1708166397692,
+          "stop" : 1708166404787,
+          "duration" : 7095
+        }
+      }, {
+        "uid" : "5ddd3e79368bfa35",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:\\Users\\garpix\\PycharmProjects\\LiteAvto_test\\photo\\1.fcIFDra40SszpxMuc083gQms0y27r1Mjc6rTKbWn2SGz.webp\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1708165356564,
+          "stop" : 1708165363856,
+          "duration" : 7292
+        }
+      } ]
+    },
+    "tags" : [ "offer" ]
+  },
+  "source" : "fee51415629f0d4f.json",
+  "parameterValues" : [ ]
+}

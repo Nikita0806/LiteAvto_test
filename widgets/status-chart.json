@@ -1,1 +1,11 @@
-[ ]
+[ {
+  "uid" : "fee51415629f0d4f",
+  "name" : "Offer",
+  "time" : {
+    "start" : 1708331291396,
+    "stop" : 1708331299174,
+    "duration" : 7778
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

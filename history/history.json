@@ -29,13 +29,22 @@
   "c909536b7f0bdab292b5769ff46d2551" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "fee51415629f0d4f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1708331291396,
+        "stop" : 1708331299174,
+        "duration" : 7778
+      }
+    }, {
       "uid" : "f5ab6cc04fc8faf3",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/main/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
