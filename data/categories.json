@@ -6,13 +6,13 @@
       "name" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/main/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
       "children" : [ {
         "name" : "Offer",
-        "uid" : "b7d23e43465efde",
+        "uid" : "f5ab6cc04fc8faf3",
         "parentUid" : "a98209a62206359e0b4e6ab0e23e7822",
         "status" : "broken",
         "time" : {
-          "start" : 1708166621198,
-          "stop" : 1708166627581,
-          "duration" : 6383
+          "start" : 1708330382788,
+          "stop" : 1708330390025,
+          "duration" : 7237
         },
         "flaky" : false,
         "newFailed" : false,
