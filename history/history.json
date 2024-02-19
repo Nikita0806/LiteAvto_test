@@ -29,13 +29,22 @@
   "c909536b7f0bdab292b5769ff46d2551" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "6361dec1d57ab922",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:/Users/garpix/PycharmProjects/LiteAvto_test/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
+      "time" : {
+        "start" : 1708333344909,
+        "stop" : 1708333352797,
+        "duration" : 7888
+      }
+    }, {
       "uid" : "c4900d882dd95bfb",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/ff7487a2388abf89d1edda5c83e1a6c0417b384f/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",

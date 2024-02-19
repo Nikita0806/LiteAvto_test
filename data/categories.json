@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : https://github.com/Nikita0806/LiteAvto_test/blob/ff7487a2388abf89d1edda5c83e1a6c0417b384f/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
+      "name" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:/Users/garpix/PycharmProjects/LiteAvto_test/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
       "children" : [ {
         "name" : "Offer",
-        "uid" : "c4900d882dd95bfb",
-        "parentUid" : "a29641909a1c909d85b64a6586973788",
+        "uid" : "6361dec1d57ab922",
+        "parentUid" : "6603198d06f0b1774785142b65367bbd",
         "status" : "broken",
         "time" : {
-          "start" : 1708331820236,
-          "stop" : 1708331828246,
-          "duration" : 8010
+          "start" : 1708333344909,
+          "stop" : 1708333352797,
+          "duration" : 7888
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a29641909a1c909d85b64a6586973788"
+      "uid" : "6603198d06f0b1774785142b65367bbd"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

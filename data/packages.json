@@ -4,13 +4,13 @@
     "name" : "tests.test_offer_a_car",
     "children" : [ {
       "name" : "Offer",
-      "uid" : "c4900d882dd95bfb",
+      "uid" : "6361dec1d57ab922",
       "parentUid" : "d89fa043ceaf3931cfefab350fda7211",
       "status" : "broken",
       "time" : {
-        "start" : 1708331820236,
-        "stop" : 1708331828246,
-        "duration" : 8010
+        "start" : 1708333344909,
+        "stop" : 1708333352797,
+        "duration" : 7888
       },
       "flaky" : false,
       "newFailed" : false,
