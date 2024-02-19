@@ -1,22 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ {
-    "name" : "Questionnaire test",
-    "children" : [ {
-      "name" : "Offer",
-      "uid" : "f5ab6cc04fc8faf3",
-      "parentUid" : "a00668d6617200d605ff3cee4fa86c69",
-      "status" : "broken",
-      "time" : {
-        "start" : 1708330382788,
-        "stop" : 1708330390025,
-        "duration" : 7237
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "a00668d6617200d605ff3cee4fa86c69"
-  } ],
+  "children" : [ ],
   "name" : "behaviors"
 }
