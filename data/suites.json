@@ -8,13 +8,13 @@
         "name" : "TestFullСheck",
         "children" : [ {
           "name" : "Full test",
-          "uid" : "1601ea6ff741162e",
+          "uid" : "19e3c983f786174c",
           "parentUid" : "47b1896374126a5ef80dd71a868c3feb",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1709105196340,
-            "stop" : 1709105229275,
-            "duration" : 32935
+            "start" : 1709105428009,
+            "stop" : 1709105461762,
+            "duration" : 33753
           },
           "flaky" : false,
           "newFailed" : false,
