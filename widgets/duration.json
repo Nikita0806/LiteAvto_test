@@ -1,11 +1,11 @@
 [ {
-  "uid" : "6361dec1d57ab922",
-  "name" : "Offer",
+  "uid" : "3028f8e8ae0ba1ab",
+  "name" : "Full test",
   "time" : {
-    "start" : 1708333344909,
-    "stop" : 1708333352797,
-    "duration" : 7888
+    "start" : 1709102138933,
+    "stop" : 1709102138933,
+    "duration" : 0
   },
   "status" : "broken",
-  "severity" : "normal"
+  "severity" : "critical"
 } ]

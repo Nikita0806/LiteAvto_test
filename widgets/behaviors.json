@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "a00668d6617200d605ff3cee4fa86c69",
-    "name" : "Questionnaire test",
+    "uid" : "ae115d0301ef2404e9eeb4e858214b70",
+    "name" : "Full check",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,

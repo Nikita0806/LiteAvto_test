@@ -1,22 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "tests.test_offer_a_car",
+    "name" : "tests.test_full",
     "children" : [ {
-      "name" : "Offer",
-      "uid" : "6361dec1d57ab922",
-      "parentUid" : "d89fa043ceaf3931cfefab350fda7211",
+      "name" : "Full test",
+      "uid" : "3028f8e8ae0ba1ab",
+      "parentUid" : "970507cd04e7bb97c0a55cf2fcf5a97a",
       "status" : "broken",
       "time" : {
-        "start" : 1708333344909,
-        "stop" : 1708333352797,
-        "duration" : 7888
+        "start" : 1709102138933,
+        "stop" : 1709102138933,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "tests.test_offer_a_car"
+    "uid" : "tests.test_full"
   } ],
   "name" : "packages"
 }

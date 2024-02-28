@@ -1,22 +1,22 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "Questionnaire test",
+    "name" : "Full check",
     "children" : [ {
-      "name" : "Offer",
-      "uid" : "6361dec1d57ab922",
-      "parentUid" : "a00668d6617200d605ff3cee4fa86c69",
+      "name" : "Full test",
+      "uid" : "3028f8e8ae0ba1ab",
+      "parentUid" : "ae115d0301ef2404e9eeb4e858214b70",
       "status" : "broken",
       "time" : {
-        "start" : 1708333344909,
-        "stop" : 1708333352797,
-        "duration" : 7888
+        "start" : 1709102138933,
+        "stop" : 1709102138933,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "a00668d6617200d605ff3cee4fa86c69"
+    "uid" : "ae115d0301ef2404e9eeb4e858214b70"
   } ],
   "name" : "behaviors"
 }

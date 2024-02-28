@@ -3,26 +3,26 @@
   "children" : [ {
     "name" : "tests",
     "children" : [ {
-      "name" : "test_offer_a_car",
+      "name" : "test_full",
       "children" : [ {
-        "name" : "TestQuestionnaire",
+        "name" : "TestFullСheck",
         "children" : [ {
-          "name" : "Offer",
-          "uid" : "6361dec1d57ab922",
-          "parentUid" : "447807d91c428a4ec5221f28e1ae6c5d",
+          "name" : "Full test",
+          "uid" : "3028f8e8ae0ba1ab",
+          "parentUid" : "47b1896374126a5ef80dd71a868c3feb",
           "status" : "broken",
           "time" : {
-            "start" : 1708333344909,
-            "stop" : 1708333352797,
-            "duration" : 7888
+            "start" : 1709102138933,
+            "stop" : 1709102138933,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "447807d91c428a4ec5221f28e1ae6c5d"
+        "uid" : "47b1896374126a5ef80dd71a868c3feb"
       } ],
-      "uid" : "0038924c44b6cfd3e2ade4bc06708d6a"
+      "uid" : "14601924e3f492d9fd491c2a3b99c10b"
     } ],
     "uid" : "e387fa4bb326b54ea8c19c2822aba374"
   } ],
