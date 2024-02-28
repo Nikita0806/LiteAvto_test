@@ -6,13 +6,13 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Full test",
-        "uid" : "ffa1656afd000525",
+        "uid" : "1601ea6ff741162e",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1709102854300,
-          "stop" : 1709102886339,
-          "duration" : 32039
+          "start" : 1709105196340,
+          "stop" : 1709105229275,
+          "duration" : 32935
         },
         "flaky" : false,
         "newFailed" : false,
