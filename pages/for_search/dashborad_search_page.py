@@ -24,6 +24,7 @@ class Search(BasePage):
     START_MILEAGE = ("xpath", "/html/body/div[2]/form/p[9]/input")               # Пробег от
     END_MILEAGE = ("xpath", "/html/body/div[2]/form/p[10]/input")                # Пробег до
     NEXT_PAGE = ("xpath", "/html/body/nav/ul/li[3]/a")                           # Кнопка следующая страница
+    TEXT = ("xpath", "/html/body/div[2]/ul/li/p/text()[1]")                           # Кнопка следующая страница
 
     @allure.step("Scroll page to the button")
     def scrol_down_button(self):                                                     # скролл до след. страницы
@@ -39,12 +40,12 @@ class Search(BasePage):
     @allure.step("Click on search marka")
     def click_search_marka(self):
         self.wait.until(EC.element_to_be_clickable(self.SEARCH_MARKA)).click()
-        # time.sleep(1)
+        # time.sleep(2)
 
     @allure.step("Click on select marka")
     def click_select_marka(self):
         self.wait.until(EC.element_to_be_clickable(self.SELECT_MARKA)).click()
-        # time.sleep(1)
+        # time.sleep(2)
 
     @allure.step("Click on search model")
     def click_search_model(self):
@@ -101,3 +102,7 @@ class Search(BasePage):
         self.wait.until(EC.element_to_be_clickable(self.CAR_CARD_2)).click()
         # time.sleep(2)
 
+    @allure.step("Enter marka")
+    def enter_select_marka(self):
+        self.wait.until(EC.text_to_be_present_in_element(self.SEARCH_MARKA, "Mazda"))
+        # time.sleep(2)
