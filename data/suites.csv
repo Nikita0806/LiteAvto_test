@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Feb 28 06:39:33 GMT 2024","Wed Feb 28 06:40:04 GMT 2024","31500","tests","test_full","TestFullСheck","","","Full test",""
+"broken","Wed Feb 28 06:43:43 GMT 2024","Wed Feb 28 06:44:16 GMT 2024","32777","tests","test_full","TestFullСheck","","","Full test",""
