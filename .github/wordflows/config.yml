@@ -20,11 +20,10 @@ jobs:                                                               # серви
         env:                                                        # переменные
           LOGIN: ${{ secrets.LOGIN }}                               # логин
           PASSWORD: ${{ secrets.PASSWORD }}                         # пароль
+          R_LOGIN: ${{ secrets.R_LOGIN }}                           # логин
           R_PASSWORD: ${{ secrets.R_PASSWORD }}                     # пароль
           R_REPEAT_PASSWORD: ${{ secrets.R_REPEAT_PASSWORD }}       # пароль
-#          PHOTO1: ${{ secrets.PHOTO1}}
-#          PHOTO2: ${{ secrets.PHOTO2}}
-#          PHOTO3: ${{ secrets.PHOTO3}}
+
 
         run: |                                                      # команда
           docker-compose up --exit-code-from regression || true     
