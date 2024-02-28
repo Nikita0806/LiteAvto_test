@@ -1,10 +1,10 @@
 [ {
-  "uid" : "3028f8e8ae0ba1ab",
+  "uid" : "b570126d49dac9e8",
   "name" : "Full test",
   "time" : {
-    "start" : 1709102138933,
-    "stop" : 1709102138933,
-    "duration" : 0
+    "start" : 1709102373307,
+    "stop" : 1709102404807,
+    "duration" : 31500
   },
   "status" : "broken",
   "severity" : "critical"

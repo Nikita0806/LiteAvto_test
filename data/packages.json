@@ -4,13 +4,13 @@
     "name" : "tests.test_full",
     "children" : [ {
       "name" : "Full test",
-      "uid" : "3028f8e8ae0ba1ab",
+      "uid" : "b570126d49dac9e8",
       "parentUid" : "970507cd04e7bb97c0a55cf2fcf5a97a",
       "status" : "broken",
       "time" : {
-        "start" : 1709102138933,
-        "stop" : 1709102138933,
-        "duration" : 0
+        "start" : 1709102373307,
+        "stop" : 1709102404807,
+        "duration" : 31500
       },
       "flaky" : false,
       "newFailed" : false,
