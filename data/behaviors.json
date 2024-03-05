@@ -4,13 +4,13 @@
     "name" : "Adding a car to the page",
     "children" : [ {
       "name" : "Admin",
-      "uid" : "f03306f359b527dc",
+      "uid" : "3ab041bf7d705f",
       "parentUid" : "6e210c5142c8c191a11cbbe4136192e3",
       "status" : "passed",
       "time" : {
-        "start" : 1709622975871,
-        "stop" : 1709622986292,
-        "duration" : 10421
+        "start" : 1709623242540,
+        "stop" : 1709623251473,
+        "duration" : 8933
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "Login",
     "children" : [ {
       "name" : "Login",
-      "uid" : "93f456357b0c1cb3",
+      "uid" : "4753d5e819e12e75",
       "parentUid" : "14102d61eef2af473312d4f91dec531b",
       "status" : "passed",
       "time" : {
-        "start" : 1709622986704,
-        "stop" : 1709622993310,
-        "duration" : 6606
+        "start" : 1709623251887,
+        "stop" : 1709623257875,
+        "duration" : 5988
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
     "name" : "Questionnaire test",
     "children" : [ {
       "name" : "Offer",
-      "uid" : "e28324c0fceb4e6e",
+      "uid" : "3f9b72237bb650b0",
       "parentUid" : "a00668d6617200d605ff3cee4fa86c69",
       "status" : "passed",
       "time" : {
-        "start" : 1709622993689,
-        "stop" : 1709623007140,
-        "duration" : 13451
+        "start" : 1709623258260,
+        "stop" : 1709623271087,
+        "duration" : 12827
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,13 +55,13 @@
     "name" : "Registration",
     "children" : [ {
       "name" : "Registration",
-      "uid" : "6ec88f721303d11b",
+      "uid" : "a2dff168664543bf",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1709623007526,
-        "stop" : 1709623016953,
-        "duration" : 9427
+        "start" : 1709623271468,
+        "stop" : 1709623280519,
+        "duration" : 9051
       },
       "flaky" : false,
       "newFailed" : false,
@@ -72,13 +72,13 @@
     "name" : "Search test",
     "children" : [ {
       "name" : "Search",
-      "uid" : "28a674194557597c",
+      "uid" : "6a7ffa3bdddb9663",
       "parentUid" : "c4513dd1fef744f4d6eb3791064c82b2",
       "status" : "passed",
       "time" : {
-        "start" : 1709623017337,
-        "stop" : 1709623031626,
-        "duration" : 14289
+        "start" : 1709623280903,
+        "stop" : 1709623293091,
+        "duration" : 12188
       },
       "flaky" : false,
       "newFailed" : false,

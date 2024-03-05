@@ -1,22 +1,22 @@
 {
-  "uid" : "f03306f359b527dc",
+  "uid" : "3ab041bf7d705f",
   "name" : "Admin",
   "fullName" : "tests.test_admin.TestAdminCar#test_admin",
   "historyId" : "90b7f4c63ba731054675f16e76035e28",
   "time" : {
-    "start" : 1709622975871,
-    "stop" : 1709622986292,
-    "duration" : 10421
+    "start" : 1709623242540,
+    "stop" : 1709623251473,
+    "duration" : 8933
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1709622975467,
-      "stop" : 1709622975871,
-      "duration" : 404
+      "start" : 1709623242539,
+      "stop" : 1709623242539,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1709622975871,
-      "stop" : 1709622975871,
-      "duration" : 0
+      "start" : 1709623242159,
+      "stop" : 1709623242539,
+      "duration" : 380
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://liteavto.pythonanywhere.com/ page",
       "time" : {
-        "start" : 1709622975871,
-        "stop" : 1709622978251,
-        "duration" : 2380
+        "start" : 1709623242540,
+        "stop" : 1709623244931,
+        "duration" : 2391
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Scroll page to the button",
       "time" : {
-        "start" : 1709622978251,
-        "stop" : 1709622978265,
-        "duration" : 14
+        "start" : 1709623244931,
+        "stop" : 1709623244947,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Click on next page",
       "time" : {
-        "start" : 1709622978265,
-        "stop" : 1709622978656,
-        "duration" : 391
+        "start" : 1709623244947,
+        "stop" : 1709623245301,
+        "duration" : 354
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Open https://liteavto.pythonanywhere.com/admin page",
       "time" : {
-        "start" : 1709622978656,
-        "stop" : 1709622979090,
-        "duration" : 434
+        "start" : 1709623245301,
+        "stop" : 1709623245702,
+        "duration" : 401
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,8 +107,8 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1709622979091,
-        "stop" : 1709622979137,
+        "start" : 1709623245702,
+        "stop" : 1709623245748,
         "duration" : 46
       },
       "status" : "passed",
@@ -125,8 +125,8 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1709622979137,
-        "stop" : 1709622979188,
+        "start" : 1709623245748,
+        "stop" : 1709623245799,
         "duration" : 51
       },
       "status" : "passed",
@@ -143,9 +143,9 @@
     }, {
       "name" : "Click on submit button",
       "time" : {
-        "start" : 1709622979188,
-        "stop" : 1709622980153,
-        "duration" : 965
+        "start" : 1709623245799,
+        "stop" : 1709623246779,
+        "duration" : 980
       },
       "status" : "passed",
       "steps" : [ ],
@@ -158,9 +158,9 @@
     }, {
       "name" : "Click on car button",
       "time" : {
-        "start" : 1709622980153,
-        "stop" : 1709622980787,
-        "duration" : 634
+        "start" : 1709623246779,
+        "stop" : 1709623247398,
+        "duration" : 619
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,9 +173,9 @@
     }, {
       "name" : "Click on checkbox on",
       "time" : {
-        "start" : 1709622980787,
-        "stop" : 1709622980837,
-        "duration" : 50
+        "start" : 1709623247398,
+        "stop" : 1709623247450,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
@@ -188,8 +188,8 @@
     }, {
       "name" : "Click on checkbox off",
       "time" : {
-        "start" : 1709622980837,
-        "stop" : 1709622980884,
+        "start" : 1709623247450,
+        "stop" : 1709623247497,
         "duration" : 47
       },
       "status" : "passed",
@@ -203,9 +203,9 @@
     }, {
       "name" : "Scrol https://liteavto.pythonanywhere.com/admin page",
       "time" : {
-        "start" : 1709622980884,
-        "stop" : 1709622980887,
-        "duration" : 3
+        "start" : 1709623247497,
+        "stop" : 1709623247499,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -218,9 +218,9 @@
     }, {
       "name" : "Click on save button",
       "time" : {
-        "start" : 1709622980887,
-        "stop" : 1709622984870,
-        "duration" : 3983
+        "start" : 1709623247500,
+        "stop" : 1709623250267,
+        "duration" : 2767
       },
       "status" : "passed",
       "steps" : [ ],
@@ -233,9 +233,9 @@
     }, {
       "name" : "Open https://liteavto.pythonanywhere.com/ page",
       "time" : {
-        "start" : 1709622984870,
-        "stop" : 1709622985090,
-        "duration" : 220
+        "start" : 1709623250267,
+        "stop" : 1709623250496,
+        "duration" : 229
       },
       "status" : "passed",
       "steps" : [ ],
@@ -248,9 +248,9 @@
     }, {
       "name" : "Scroll page to the button",
       "time" : {
-        "start" : 1709622985090,
-        "stop" : 1709622985114,
-        "duration" : 24
+        "start" : 1709623250496,
+        "stop" : 1709623250504,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -263,9 +263,9 @@
     }, {
       "name" : "Click on next page",
       "time" : {
-        "start" : 1709622985115,
-        "stop" : 1709622985728,
-        "duration" : 613
+        "start" : 1709623250504,
+        "stop" : 1709623250939,
+        "duration" : 435
       },
       "status" : "passed",
       "steps" : [ ],
@@ -277,11 +277,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "684f1137be5817aa",
+      "uid" : "da6b2b61171900cf",
       "name" : "Screenshot new car",
-      "source" : "684f1137be5817aa.png",
+      "source" : "da6b2b61171900cf.png",
       "type" : "image/png",
-      "size" : 1626237
+      "size" : 1559515
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -292,9 +292,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1709622986292,
-      "stop" : 1709622986378,
-      "duration" : 86
+      "start" : 1709623251474,
+      "stop" : 1709623251559,
+      "duration" : 85
     },
     "status" : "passed",
     "steps" : [ ],
@@ -325,7 +325,7 @@
     "value" : "TestAdminCar"
   }, {
     "name" : "host",
-    "value" : "6c930e57aab8"
+    "value" : "4d9764060b82"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -350,8 +350,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f03306f359b527dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709622975871,
+          "stop" : 1709622986292,
+          "duration" : 10421
+        }
+      } ]
+    },
     "tags" : [ "admin" ]
   },
-  "source" : "f03306f359b527dc.json",
+  "source" : "3ab041bf7d705f.json",
   "parameterValues" : [ ]
 }

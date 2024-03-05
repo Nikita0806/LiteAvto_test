@@ -1,22 +1,22 @@
 {
-  "uid" : "e28324c0fceb4e6e",
+  "uid" : "3f9b72237bb650b0",
   "name" : "Offer",
   "fullName" : "tests.test_offer_a_car.TestQuestionnaire#test_offer_a_car",
   "historyId" : "c909536b7f0bdab292b5769ff46d2551",
   "time" : {
-    "start" : 1709622993689,
-    "stop" : 1709623007140,
-    "duration" : 13451
+    "start" : 1709623258260,
+    "stop" : 1709623271087,
+    "duration" : 12827
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1709622993689,
-      "stop" : 1709622993689,
-      "duration" : 0
+      "start" : 1709623257932,
+      "stop" : 1709623258260,
+      "duration" : 328
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1709622993367,
-      "stop" : 1709622993689,
-      "duration" : 322
+      "start" : 1709623258260,
+      "stop" : 1709623258260,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://liteavto.pythonanywhere.com/ page",
       "time" : {
-        "start" : 1709622993689,
-        "stop" : 1709622995623,
-        "duration" : 1934
+        "start" : 1709623258260,
+        "stop" : 1709623260183,
+        "duration" : 1923
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
       "time" : {
-        "start" : 1709622995623,
-        "stop" : 1709622995627,
-        "duration" : 4
+        "start" : 1709623260183,
+        "stop" : 1709623260186,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Click on login",
       "time" : {
-        "start" : 1709622995627,
-        "stop" : 1709622995854,
-        "duration" : 227
+        "start" : 1709623260186,
+        "stop" : 1709623260407,
+        "duration" : 221
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Open https://liteavto.pythonanywhere.com/login page",
       "time" : {
-        "start" : 1709622995854,
-        "stop" : 1709622996024,
-        "duration" : 170
+        "start" : 1709623260407,
+        "stop" : 1709623260575,
+        "duration" : 168
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1709622996024,
-        "stop" : 1709622996074,
-        "duration" : 50
+        "start" : 1709623260575,
+        "stop" : 1709623260624,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,8 +125,8 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1709622996074,
-        "stop" : 1709622996124,
+        "start" : 1709623260624,
+        "stop" : 1709623260674,
         "duration" : 50
       },
       "status" : "passed",
@@ -143,9 +143,9 @@
     }, {
       "name" : "Click on submit button",
       "time" : {
-        "start" : 1709622996124,
-        "stop" : 1709622999005,
-        "duration" : 2881
+        "start" : 1709623260675,
+        "stop" : 1709623263590,
+        "duration" : 2915
       },
       "status" : "passed",
       "steps" : [ ],
@@ -158,9 +158,9 @@
     }, {
       "name" : "Open https://liteavto.pythonanywhere.com/ page",
       "time" : {
-        "start" : 1709622999005,
-        "stop" : 1709622999221,
-        "duration" : 216
+        "start" : 1709623263590,
+        "stop" : 1709623263875,
+        "duration" : 285
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,9 +173,9 @@
     }, {
       "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
       "time" : {
-        "start" : 1709622999221,
-        "stop" : 1709622999224,
-        "duration" : 3
+        "start" : 1709623263875,
+        "stop" : 1709623263879,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -188,9 +188,9 @@
     }, {
       "name" : "Click on add car",
       "time" : {
-        "start" : 1709622999224,
-        "stop" : 1709622999548,
-        "duration" : 324
+        "start" : 1709623263879,
+        "stop" : 1709623264249,
+        "duration" : 370
       },
       "status" : "passed",
       "steps" : [ ],
@@ -203,8 +203,8 @@
     }, {
       "name" : "Scroll page to the button",
       "time" : {
-        "start" : 1709622999548,
-        "stop" : 1709622999559,
+        "start" : 1709623264249,
+        "stop" : 1709623264260,
         "duration" : 11
       },
       "status" : "passed",
@@ -218,9 +218,9 @@
     }, {
       "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
       "time" : {
-        "start" : 1709622999559,
-        "stop" : 1709622999565,
-        "duration" : 6
+        "start" : 1709623264260,
+        "stop" : 1709623264267,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -233,9 +233,9 @@
     }, {
       "name" : "Click on search marka",
       "time" : {
-        "start" : 1709622999565,
-        "stop" : 1709622999617,
-        "duration" : 52
+        "start" : 1709623264267,
+        "stop" : 1709623264320,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -248,9 +248,9 @@
     }, {
       "name" : "Click on select marka",
       "time" : {
-        "start" : 1709622999617,
-        "stop" : 1709622999652,
-        "duration" : 35
+        "start" : 1709623264320,
+        "stop" : 1709623264354,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -263,9 +263,9 @@
     }, {
       "name" : "Click on search model",
       "time" : {
-        "start" : 1709622999652,
-        "stop" : 1709622999701,
-        "duration" : 49
+        "start" : 1709623264354,
+        "stop" : 1709623264402,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
@@ -278,9 +278,9 @@
     }, {
       "name" : "Click on select model",
       "time" : {
-        "start" : 1709622999701,
-        "stop" : 1709622999735,
-        "duration" : 34
+        "start" : 1709623264403,
+        "stop" : 1709623264439,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -293,9 +293,9 @@
     }, {
       "name" : "Click on search cuzov",
       "time" : {
-        "start" : 1709622999735,
-        "stop" : 1709622999785,
-        "duration" : 50
+        "start" : 1709623264439,
+        "stop" : 1709623264487,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
@@ -308,9 +308,9 @@
     }, {
       "name" : "Click on select cuzov",
       "time" : {
-        "start" : 1709622999785,
-        "stop" : 1709622999822,
-        "duration" : 37
+        "start" : 1709623264487,
+        "stop" : 1709623264522,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -323,8 +323,8 @@
     }, {
       "name" : "Enter on color",
       "time" : {
-        "start" : 1709622999822,
-        "stop" : 1709622999874,
+        "start" : 1709623264522,
+        "stop" : 1709623264574,
         "duration" : 52
       },
       "status" : "passed",
@@ -341,9 +341,9 @@
     }, {
       "name" : "Enter on vin",
       "time" : {
-        "start" : 1709622999874,
-        "stop" : 1709622999927,
-        "duration" : 53
+        "start" : 1709623264574,
+        "stop" : 1709623264626,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
@@ -359,8 +359,8 @@
     }, {
       "name" : "Enter on equipment",
       "time" : {
-        "start" : 1709622999927,
-        "stop" : 1709622999976,
+        "start" : 1709623264626,
+        "stop" : 1709623264675,
         "duration" : 49
       },
       "status" : "passed",
@@ -377,8 +377,8 @@
     }, {
       "name" : "Click on search date",
       "time" : {
-        "start" : 1709622999976,
-        "stop" : 1709623000026,
+        "start" : 1709623264675,
+        "stop" : 1709623264725,
         "duration" : 50
       },
       "status" : "passed",
@@ -392,8 +392,8 @@
     }, {
       "name" : "Click on select date",
       "time" : {
-        "start" : 1709623000026,
-        "stop" : 1709623000064,
+        "start" : 1709623264725,
+        "stop" : 1709623264763,
         "duration" : 38
       },
       "status" : "passed",
@@ -407,9 +407,9 @@
     }, {
       "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
       "time" : {
-        "start" : 1709623000065,
-        "stop" : 1709623000067,
-        "duration" : 2
+        "start" : 1709623264763,
+        "stop" : 1709623264766,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -422,8 +422,8 @@
     }, {
       "name" : "Enter on price",
       "time" : {
-        "start" : 1709623000068,
-        "stop" : 1709623000124,
+        "start" : 1709623264766,
+        "stop" : 1709623264822,
         "duration" : 56
       },
       "status" : "passed",
@@ -440,9 +440,9 @@
     }, {
       "name" : "Enter on mileage",
       "time" : {
-        "start" : 1709623000124,
-        "stop" : 1709623000177,
-        "duration" : 53
+        "start" : 1709623264822,
+        "stop" : 1709623264874,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
@@ -458,9 +458,9 @@
     }, {
       "name" : "Click on search transmission",
       "time" : {
-        "start" : 1709623000177,
-        "stop" : 1709623000227,
-        "duration" : 50
+        "start" : 1709623264874,
+        "stop" : 1709623264923,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -473,9 +473,9 @@
     }, {
       "name" : "Click on select transmission",
       "time" : {
-        "start" : 1709623000228,
-        "stop" : 1709623000264,
-        "duration" : 36
+        "start" : 1709623264923,
+        "stop" : 1709623264961,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -488,9 +488,9 @@
     }, {
       "name" : "Click on search engine capacity",
       "time" : {
-        "start" : 1709623000264,
-        "stop" : 1709623000318,
-        "duration" : 54
+        "start" : 1709623264961,
+        "stop" : 1709623265014,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -503,9 +503,9 @@
     }, {
       "name" : "Click on select engine capacity",
       "time" : {
-        "start" : 1709623000318,
-        "stop" : 1709623000355,
-        "duration" : 37
+        "start" : 1709623265014,
+        "stop" : 1709623265050,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -518,9 +518,9 @@
     }, {
       "name" : "Click on search engine type",
       "time" : {
-        "start" : 1709623000355,
-        "stop" : 1709623000409,
-        "duration" : 54
+        "start" : 1709623265050,
+        "stop" : 1709623265105,
+        "duration" : 55
       },
       "status" : "passed",
       "steps" : [ ],
@@ -533,9 +533,9 @@
     }, {
       "name" : "Click on select engine type",
       "time" : {
-        "start" : 1709623000410,
-        "stop" : 1709623000447,
-        "duration" : 37
+        "start" : 1709623265105,
+        "stop" : 1709623265143,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -548,8 +548,8 @@
     }, {
       "name" : "Click on search drive unit",
       "time" : {
-        "start" : 1709623000447,
-        "stop" : 1709623000499,
+        "start" : 1709623265143,
+        "stop" : 1709623265195,
         "duration" : 52
       },
       "status" : "passed",
@@ -563,8 +563,8 @@
     }, {
       "name" : "Click on select drive unit",
       "time" : {
-        "start" : 1709623000499,
-        "stop" : 1709623000535,
+        "start" : 1709623265195,
+        "stop" : 1709623265231,
         "duration" : 36
       },
       "status" : "passed",
@@ -578,9 +578,9 @@
     }, {
       "name" : "Click on search state",
       "time" : {
-        "start" : 1709623000535,
-        "stop" : 1709623000588,
-        "duration" : 53
+        "start" : 1709623265231,
+        "stop" : 1709623265286,
+        "duration" : 55
       },
       "status" : "passed",
       "steps" : [ ],
@@ -593,9 +593,9 @@
     }, {
       "name" : "Click on select state",
       "time" : {
-        "start" : 1709623000588,
-        "stop" : 1709623000627,
-        "duration" : 39
+        "start" : 1709623265286,
+        "stop" : 1709623265323,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ ],
@@ -608,9 +608,9 @@
     }, {
       "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
       "time" : {
-        "start" : 1709623000627,
-        "stop" : 1709623000631,
-        "duration" : 4
+        "start" : 1709623265323,
+        "stop" : 1709623265326,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -623,9 +623,9 @@
     }, {
       "name" : "Enter on horsepower",
       "time" : {
-        "start" : 1709623000631,
-        "stop" : 1709623000696,
-        "duration" : 65
+        "start" : 1709623265326,
+        "stop" : 1709623265392,
+        "duration" : 66
       },
       "status" : "passed",
       "steps" : [ ],
@@ -641,9 +641,9 @@
     }, {
       "name" : "Click on search pts",
       "time" : {
-        "start" : 1709623000696,
-        "stop" : 1709623000749,
-        "duration" : 53
+        "start" : 1709623265392,
+        "stop" : 1709623265443,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -656,8 +656,8 @@
     }, {
       "name" : "Click on select pts",
       "time" : {
-        "start" : 1709623000750,
-        "stop" : 1709623000787,
+        "start" : 1709623265443,
+        "stop" : 1709623265480,
         "duration" : 37
       },
       "status" : "passed",
@@ -671,8 +671,8 @@
     }, {
       "name" : "Enter on owners",
       "time" : {
-        "start" : 1709623000787,
-        "stop" : 1709623000840,
+        "start" : 1709623265480,
+        "stop" : 1709623265533,
         "duration" : 53
       },
       "status" : "passed",
@@ -689,8 +689,8 @@
     }, {
       "name" : "Click on search accounting",
       "time" : {
-        "start" : 1709623000840,
-        "stop" : 1709623000893,
+        "start" : 1709623265533,
+        "stop" : 1709623265586,
         "duration" : 53
       },
       "status" : "passed",
@@ -704,9 +704,9 @@
     }, {
       "name" : "Click on select accounting",
       "time" : {
-        "start" : 1709623000893,
-        "stop" : 1709623000931,
-        "duration" : 38
+        "start" : 1709623265586,
+        "stop" : 1709623265625,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ ],
@@ -719,9 +719,9 @@
     }, {
       "name" : "Enter on telephone",
       "time" : {
-        "start" : 1709623000931,
-        "stop" : 1709623000991,
-        "duration" : 60
+        "start" : 1709623265625,
+        "stop" : 1709623265684,
+        "duration" : 59
       },
       "status" : "passed",
       "steps" : [ ],
@@ -737,8 +737,8 @@
     }, {
       "name" : "Scrol https://liteavto.pythonanywhere.com/addcar page",
       "time" : {
-        "start" : 1709623000991,
-        "stop" : 1709623000993,
+        "start" : 1709623265684,
+        "stop" : 1709623265686,
         "duration" : 2
       },
       "status" : "passed",
@@ -752,8 +752,8 @@
     }, {
       "name" : "Enter on photo 1",
       "time" : {
-        "start" : 1709623000993,
-        "stop" : 1709623001035,
+        "start" : 1709623265686,
+        "stop" : 1709623265728,
         "duration" : 42
       },
       "status" : "passed",
@@ -767,8 +767,8 @@
     }, {
       "name" : "Enter on photo 2",
       "time" : {
-        "start" : 1709623001035,
-        "stop" : 1709623002078,
+        "start" : 1709623265728,
+        "stop" : 1709623266771,
         "duration" : 1043
       },
       "status" : "passed",
@@ -782,8 +782,8 @@
     }, {
       "name" : "Enter on photo 3",
       "time" : {
-        "start" : 1709623002079,
-        "stop" : 1709623003124,
+        "start" : 1709623266771,
+        "stop" : 1709623267816,
         "duration" : 1045
       },
       "status" : "passed",
@@ -797,9 +797,9 @@
     }, {
       "name" : "Enter on description",
       "time" : {
-        "start" : 1709623003125,
-        "stop" : 1709623003190,
-        "duration" : 65
+        "start" : 1709623267816,
+        "stop" : 1709623267882,
+        "duration" : 66
       },
       "status" : "passed",
       "steps" : [ ],
@@ -815,9 +815,9 @@
     }, {
       "name" : "Click on save button",
       "time" : {
-        "start" : 1709623003190,
-        "stop" : 1709623006656,
-        "duration" : 3466
+        "start" : 1709623267883,
+        "stop" : 1709623270605,
+        "duration" : 2722
       },
       "status" : "passed",
       "steps" : [ ],
@@ -829,9 +829,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "2f82961e4942f3fa",
+      "uid" : "cf3b0bc53cee9956",
       "name" : "Screenshots save new car",
-      "source" : "2f82961e4942f3fa.png",
+      "source" : "cf3b0bc53cee9956.png",
       "type" : "image/png",
       "size" : 1428720
     } ],
@@ -844,8 +844,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1709623007140,
-      "stop" : 1709623007195,
+      "start" : 1709623271087,
+      "stop" : 1709623271142,
       "duration" : 55
     },
     "status" : "passed",
@@ -858,11 +858,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Medium"
-  }, {
     "name" : "feature",
     "value" : "Questionnaire test"
+  }, {
+    "name" : "severity",
+    "value" : "Medium"
   }, {
     "name" : "tag",
     "value" : "offer"
@@ -877,7 +877,7 @@
     "value" : "TestQuestionnaire"
   }, {
     "name" : "host",
-    "value" : "6c930e57aab8"
+    "value" : "4d9764060b82"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -907,11 +907,19 @@
         "failed" : 0,
         "broken" : 7,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 8
+        "total" : 9
       },
       "items" : [ {
+        "uid" : "e28324c0fceb4e6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709622993689,
+          "stop" : 1709623007140,
+          "duration" : 13451
+        }
+      }, {
         "uid" : "6361dec1d57ab922",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: File not found : C:/Users/garpix/PycharmProjects/LiteAvto_test/photo/1.TEyKera44KW8zWKonhNlDobY4qM022KzvNbipzrT6K88.webp\n  (Session info: headless chrome=112.0.5615.165)",
@@ -978,6 +986,6 @@
     },
     "tags" : [ "offer" ]
   },
-  "source" : "e28324c0fceb4e6e.json",
+  "source" : "3f9b72237bb650b0.json",
   "parameterValues" : [ ]
 }

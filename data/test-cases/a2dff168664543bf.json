@@ -1,12 +1,12 @@
 {
-  "uid" : "6ec88f721303d11b",
+  "uid" : "a2dff168664543bf",
   "name" : "Registration",
   "fullName" : "tests.test_registration.TestRegistration#test_registration",
   "historyId" : "a52a484530a8a2868f0494951d73f0e2",
   "time" : {
-    "start" : 1709623007526,
-    "stop" : 1709623016953,
-    "duration" : 9427
+    "start" : 1709623271468,
+    "stop" : 1709623280519,
+    "duration" : 9051
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1709623007197,
-      "stop" : 1709623007525,
-      "duration" : 328
+      "start" : 1709623271144,
+      "stop" : 1709623271467,
+      "duration" : 323
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1709623007525,
-      "stop" : 1709623007525,
-      "duration" : 0
+      "start" : 1709623271467,
+      "stop" : 1709623271468,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://liteavto.pythonanywhere.com/ page",
       "time" : {
-        "start" : 1709623007526,
-        "stop" : 1709623009677,
-        "duration" : 2151
+        "start" : 1709623271468,
+        "stop" : 1709623273581,
+        "duration" : 2113
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "Page https://liteavto.pythonanywhere.com/ is opened",
       "time" : {
-        "start" : 1709623009678,
-        "stop" : 1709623009681,
+        "start" : 1709623273581,
+        "stop" : 1709623273584,
         "duration" : 3
       },
       "status" : "passed",
@@ -77,9 +77,9 @@
     }, {
       "name" : "Click on registration",
       "time" : {
-        "start" : 1709623009681,
-        "stop" : 1709623009909,
-        "duration" : 228
+        "start" : 1709623273584,
+        "stop" : 1709623273802,
+        "duration" : 218
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Open https://liteavto.pythonanywhere.com/register page",
       "time" : {
-        "start" : 1709623009909,
-        "stop" : 1709623010093,
-        "duration" : 184
+        "start" : 1709623273802,
+        "stop" : 1709623273973,
+        "duration" : 171
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,16 +107,16 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1709623010094,
-        "stop" : 1709623010145,
-        "duration" : 51
+        "start" : 1709623273973,
+        "stop" : 1709623274025,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "login",
-        "value" : "'Никита90598'"
+        "value" : "'Никита39980'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -125,9 +125,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1709623010145,
-        "stop" : 1709623010195,
-        "duration" : 50
+        "start" : 1709623274025,
+        "stop" : 1709623274074,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     }, {
       "name" : "Enter repeat password",
       "time" : {
-        "start" : 1709623010195,
-        "stop" : 1709623010246,
-        "duration" : 51
+        "start" : 1709623274074,
+        "stop" : 1709623274123,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -161,9 +161,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1709623010246,
-        "stop" : 1709623016394,
-        "duration" : 6148
+        "start" : 1709623274123,
+        "stop" : 1709623279968,
+        "duration" : 5845
       },
       "status" : "passed",
       "steps" : [ ],
@@ -175,11 +175,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "9c1bd9ae07d5473a",
+      "uid" : "2c20ee8982d521e7",
       "name" : "Enter registration",
-      "source" : "9c1bd9ae07d5473a.png",
+      "source" : "2c20ee8982d521e7.png",
       "type" : "image/png",
-      "size" : 1689933
+      "size" : 1690017
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -190,8 +190,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1709623016954,
-      "stop" : 1709623017009,
+      "start" : 1709623280519,
+      "stop" : 1709623280574,
       "duration" : 55
     },
     "status" : "passed",
@@ -204,11 +204,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Medium"
-  }, {
     "name" : "feature",
     "value" : "Registration"
+  }, {
+    "name" : "severity",
+    "value" : "Medium"
   }, {
     "name" : "tag",
     "value" : "registration"
@@ -223,7 +223,7 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "6c930e57aab8"
+    "value" : "4d9764060b82"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -248,8 +248,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6ec88f721303d11b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709623007526,
+          "stop" : 1709623016953,
+          "duration" : 9427
+        }
+      } ]
+    },
     "tags" : [ "registration" ]
   },
-  "source" : "6ec88f721303d11b.json",
+  "source" : "a2dff168664543bf.json",
   "parameterValues" : [ ]
 }
