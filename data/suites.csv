@@ -1,6 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Mar 05 07:20:51 GMT 2024","Tue Mar 05 07:20:57 GMT 2024","5988","tests","test_login","TestLogin","","","Login",""
-"passed","Tue Mar 05 07:21:11 GMT 2024","Tue Mar 05 07:21:20 GMT 2024","9051","tests","test_registration","TestRegistration","","","Registration",""
-"passed","Tue Mar 05 07:21:20 GMT 2024","Tue Mar 05 07:21:33 GMT 2024","12188","tests","test_search","TestSearch","","","Search",""
-"passed","Tue Mar 05 07:20:42 GMT 2024","Tue Mar 05 07:20:51 GMT 2024","8933","tests","test_admin","TestAdminCar","","","Admin",""
-"passed","Tue Mar 05 07:20:58 GMT 2024","Tue Mar 05 07:21:11 GMT 2024","12827","tests","test_offer_a_car","TestQuestionnaire","","","Offer",""
+"broken","Tue Mar 05 07:25:10 GMT 2024","Tue Mar 05 07:25:42 GMT 2024","32290","tests","test_full","TestFullСheck","","","Full test",""

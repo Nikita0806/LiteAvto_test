@@ -146,13 +146,22 @@
   "8e60ee14f1560876ffd078206eeefcef" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "a4abe59e03bcad77",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1709623510377,
+        "stop" : 1709623542667,
+        "duration" : 32290
+      }
+    }, {
       "uid" : "19e3c983f786174c",
       "status" : "passed",
       "time" : {

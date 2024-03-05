@@ -1,57 +1,13 @@
 {
-  "total" : 5,
+  "total" : 1,
   "items" : [ {
-    "uid" : "6e210c5142c8c191a11cbbe4136192e3",
-    "name" : "Adding a car to the page",
+    "uid" : "ae115d0301ef2404e9eeb4e858214b70",
+    "name" : "Full check",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "14102d61eef2af473312d4f91dec531b",
-    "name" : "Login",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "a00668d6617200d605ff3cee4fa86c69",
-    "name" : "Questionnaire test",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "c0effe69527f658c5af968b745a6e0ad",
-    "name" : "Registration",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "c4513dd1fef744f4d6eb3791064c82b2",
-    "name" : "Search test",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

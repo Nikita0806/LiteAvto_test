@@ -1,90 +1,22 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "Adding a car to the page",
+    "name" : "Full check",
     "children" : [ {
-      "name" : "Admin",
-      "uid" : "3ab041bf7d705f",
-      "parentUid" : "6e210c5142c8c191a11cbbe4136192e3",
-      "status" : "passed",
+      "name" : "Full test",
+      "uid" : "a4abe59e03bcad77",
+      "parentUid" : "ae115d0301ef2404e9eeb4e858214b70",
+      "status" : "broken",
       "time" : {
-        "start" : 1709623242540,
-        "stop" : 1709623251473,
-        "duration" : 8933
+        "start" : 1709623510377,
+        "stop" : 1709623542667,
+        "duration" : 32290
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "6e210c5142c8c191a11cbbe4136192e3"
-  }, {
-    "name" : "Login",
-    "children" : [ {
-      "name" : "Login",
-      "uid" : "4753d5e819e12e75",
-      "parentUid" : "14102d61eef2af473312d4f91dec531b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1709623251887,
-        "stop" : 1709623257875,
-        "duration" : 5988
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "14102d61eef2af473312d4f91dec531b"
-  }, {
-    "name" : "Questionnaire test",
-    "children" : [ {
-      "name" : "Offer",
-      "uid" : "3f9b72237bb650b0",
-      "parentUid" : "a00668d6617200d605ff3cee4fa86c69",
-      "status" : "passed",
-      "time" : {
-        "start" : 1709623258260,
-        "stop" : 1709623271087,
-        "duration" : 12827
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "a00668d6617200d605ff3cee4fa86c69"
-  }, {
-    "name" : "Registration",
-    "children" : [ {
-      "name" : "Registration",
-      "uid" : "a2dff168664543bf",
-      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
-      "status" : "passed",
-      "time" : {
-        "start" : 1709623271468,
-        "stop" : 1709623280519,
-        "duration" : 9051
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "c0effe69527f658c5af968b745a6e0ad"
-  }, {
-    "name" : "Search test",
-    "children" : [ {
-      "name" : "Search",
-      "uid" : "6a7ffa3bdddb9663",
-      "parentUid" : "c4513dd1fef744f4d6eb3791064c82b2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1709623280903,
-        "stop" : 1709623293091,
-        "duration" : 12188
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "c4513dd1fef744f4d6eb3791064c82b2"
+    "uid" : "ae115d0301ef2404e9eeb4e858214b70"
   } ],
   "name" : "behaviors"
 }

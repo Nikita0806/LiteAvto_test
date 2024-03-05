@@ -1,78 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "4d9764060b82",
+    "name" : "3aaaecbd9997",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Search",
-        "uid" : "6a7ffa3bdddb9663",
-        "parentUid" : "02e2d1a936a1b47ed83e74d5c4121c39",
-        "status" : "passed",
+        "name" : "Full test",
+        "uid" : "a4abe59e03bcad77",
+        "parentUid" : "795ab9702094cbc80e2b791fc32adb0a",
+        "status" : "broken",
         "time" : {
-          "start" : 1709623280903,
-          "stop" : 1709623293091,
-          "duration" : 12188
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Offer",
-        "uid" : "3f9b72237bb650b0",
-        "parentUid" : "02e2d1a936a1b47ed83e74d5c4121c39",
-        "status" : "passed",
-        "time" : {
-          "start" : 1709623258260,
-          "stop" : 1709623271087,
-          "duration" : 12827
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Admin",
-        "uid" : "3ab041bf7d705f",
-        "parentUid" : "02e2d1a936a1b47ed83e74d5c4121c39",
-        "status" : "passed",
-        "time" : {
-          "start" : 1709623242540,
-          "stop" : 1709623251473,
-          "duration" : 8933
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Login",
-        "uid" : "4753d5e819e12e75",
-        "parentUid" : "02e2d1a936a1b47ed83e74d5c4121c39",
-        "status" : "passed",
-        "time" : {
-          "start" : 1709623251887,
-          "stop" : 1709623257875,
-          "duration" : 5988
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Registration",
-        "uid" : "a2dff168664543bf",
-        "parentUid" : "02e2d1a936a1b47ed83e74d5c4121c39",
-        "status" : "passed",
-        "time" : {
-          "start" : 1709623271468,
-          "stop" : 1709623280519,
-          "duration" : 9051
+          "start" : 1709623510377,
+          "stop" : 1709623542667,
+          "duration" : 32290
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "02e2d1a936a1b47ed83e74d5c4121c39"
+      "uid" : "795ab9702094cbc80e2b791fc32adb0a"
     } ],
-    "uid" : "ca37d55c36bfb600089151bc6787d7f9"
+    "uid" : "14df92de16d6e3c6675a7f22a757ef02"
   } ],
   "name" : "timeline"
 }
