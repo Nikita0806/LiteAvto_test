@@ -1,11 +1,51 @@
 [ {
-  "uid" : "19e3c983f786174c",
-  "name" : "Full test",
+  "uid" : "f03306f359b527dc",
+  "name" : "Admin",
   "time" : {
-    "start" : 1709105428009,
-    "stop" : 1709105461762,
-    "duration" : 33753
+    "start" : 1709622975871,
+    "stop" : 1709622986292,
+    "duration" : 10421
   },
   "status" : "passed",
-  "severity" : "critical"
+  "severity" : "normal"
+}, {
+  "uid" : "93f456357b0c1cb3",
+  "name" : "Login",
+  "time" : {
+    "start" : 1709622986704,
+    "stop" : 1709622993310,
+    "duration" : 6606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e28324c0fceb4e6e",
+  "name" : "Offer",
+  "time" : {
+    "start" : 1709622993689,
+    "stop" : 1709623007140,
+    "duration" : 13451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28a674194557597c",
+  "name" : "Search",
+  "time" : {
+    "start" : 1709623017337,
+    "stop" : 1709623031626,
+    "duration" : 14289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ec88f721303d11b",
+  "name" : "Registration",
+  "time" : {
+    "start" : 1709623007526,
+    "stop" : 1709623016953,
+    "duration" : 9427
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

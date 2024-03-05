@@ -1,26 +1,78 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "89f668cdbc8d",
+    "name" : "6c930e57aab8",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Full test",
-        "uid" : "19e3c983f786174c",
-        "parentUid" : "5d11edc4841f2afcfc93e0b0acfe09b8",
+        "name" : "Login",
+        "uid" : "93f456357b0c1cb3",
+        "parentUid" : "f9eaf419bf0a5cad2cd2884d6c51b713",
         "status" : "passed",
         "time" : {
-          "start" : 1709105428009,
-          "stop" : 1709105461762,
-          "duration" : 33753
+          "start" : 1709622986704,
+          "stop" : 1709622993310,
+          "duration" : 6606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search",
+        "uid" : "28a674194557597c",
+        "parentUid" : "f9eaf419bf0a5cad2cd2884d6c51b713",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709623017337,
+          "stop" : 1709623031626,
+          "duration" : 14289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Admin",
+        "uid" : "f03306f359b527dc",
+        "parentUid" : "f9eaf419bf0a5cad2cd2884d6c51b713",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709622975871,
+          "stop" : 1709622986292,
+          "duration" : 10421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Offer",
+        "uid" : "e28324c0fceb4e6e",
+        "parentUid" : "f9eaf419bf0a5cad2cd2884d6c51b713",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709622993689,
+          "stop" : 1709623007140,
+          "duration" : 13451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Registration",
+        "uid" : "6ec88f721303d11b",
+        "parentUid" : "f9eaf419bf0a5cad2cd2884d6c51b713",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709623007526,
+          "stop" : 1709623016953,
+          "duration" : 9427
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5d11edc4841f2afcfc93e0b0acfe09b8"
+      "uid" : "f9eaf419bf0a5cad2cd2884d6c51b713"
     } ],
-    "uid" : "5e6d81815521656a164c5d82ac72ee49"
+    "uid" : "77440cce9933992a491955fd932477ac"
   } ],
   "name" : "timeline"
 }
