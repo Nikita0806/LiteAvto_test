@@ -94,11 +94,6 @@ class TestFullСheck(BaseTest):
         self.search.next_page()                                                     # Следующая страница
         # admin
         self.admin_page.open()                                                      # Открытие админки
-        self.search.make_screenshot("Success1")
-        self.admin_page.enter_login(self.data.LOGIN)                                # Ввод логина
-        self.search.make_screenshot("Success2")
-        self.admin_page.enter_password(self.data.PASSWORD)                          # Ввод пароля
-        self.admin_page.click_submit_button()                                       # Кнопка вход
         self.admin_page.car_button()                                                # Открыте вкладки автомобили
         self.admin_page.checkbox_click_settings_on_1()                              # Выбор авто 1
         self.admin_page.checkbox_click_settings_on_2()                              # Выбор авто 2
